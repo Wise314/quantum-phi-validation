@@ -73,6 +73,11 @@ python test_quantum_phi_2qubit_gates.py
 python test_quantum_phi_deep_circuit.py
 ```
 
+### Depth scaling test (10-500 gates)
+```bash
+python test_quantum_phi_depth_scaling.py
+```
+
 ### Threshold validation
 ```bash
 python test_quantum_phi_threshold_sweep.py
@@ -98,6 +103,33 @@ python test_quantum_phi_random_circuit.py
 python test_quantum_phi_cross_backend.py
 ```
 
+### Qubit selection test
+```bash
+python test_quantum_phi_qubit_selection.py
+```
+
+### Error correction test
+```bash
+python test_quantum_phi_error_correction.py
+```
+
+### Variational circuit test
+```bash
+python test_quantum_phi_variational.py
+```
+
+## Utility Scripts
+
+### Daily Φ data collection (run daily for temporal prediction)
+```bash
+python daily_phi_collection.py
+```
+
+### Real-time monitoring dashboard
+```bash
+python realtime_monitor.py
+```
+
 ## All Tests Summary
 
 | Test | Script | Time | Result |
@@ -106,11 +138,22 @@ python test_quantum_phi_cross_backend.py
 | All backends | test_quantum_phi_all_backends.py | ~2 min | 445 qubits |
 | Two-qubit gates | test_quantum_phi_2qubit_gates.py | ~2 min | 4.34x |
 | Deep circuit | test_quantum_phi_deep_circuit.py | ~5 min | 25-63x |
+| Depth scaling | test_quantum_phi_depth_scaling.py | ~10 min | 8-18x |
 | Threshold sweep | test_quantum_phi_threshold_sweep.py | ~2 min | 0.25 validated |
 | GHZ entanglement | test_quantum_phi_ghz_entanglement.py | ~3 min | 4.42x |
 | Bell states | test_quantum_phi_bell_states.py | ~3 min | Inconclusive |
 | Stress tests | test_quantum_phi_random_circuit.py | ~5 min | 16x-∞ |
 | Cross-backend | test_quantum_phi_cross_backend.py | ~10 min | 2.5x-5.75x |
+| Qubit selection | test_quantum_phi_qubit_selection.py | ~5 min | 5.99x, 83% |
+| Error correction | test_quantum_phi_error_correction.py | ~5 min | 1.22x |
+| Variational | test_quantum_phi_variational.py | ~5 min | Inconclusive |
+
+## Utility Scripts Summary
+
+| Script | Purpose | Frequency |
+|--------|---------|-----------|
+| daily_phi_collection.py | Collect Φ snapshots for temporal prediction | Daily |
+| realtime_monitor.py | Live monitoring dashboard | On demand |
 
 ## Free Tier Limits
 
