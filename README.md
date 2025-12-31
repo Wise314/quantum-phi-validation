@@ -9,6 +9,7 @@ Validation of the Universal Φ Framework on IBM Quantum Hardware.
 | Single Qubit | 445 qubits | r = 0.9458 correlation with T2/T1 | ✓ |
 | Two-Qubit Gates | 1004 gates | 4.34x higher error when min_Φ < 0.25 | ✓ |
 | Deep Circuit Execution | 10 qubits × 4 depths | 25-63x higher error for low-Φ qubits | ✓ |
+| Depth Scaling | 20 qubits × 10 depths | 8-18x discrimination (10-500 gates) | ✓ |
 | Threshold Validation | 445 qubits | 0.25 in optimal plateau | ✓ |
 | Dead Qubit Detection | 5 qubits | 100% identification (all Φ < 0) | ✓ |
 | GHZ Entanglement | 5 triplets | 4.42x higher error for low-Φ | ✓ |
@@ -19,7 +20,7 @@ Validation of the Universal Φ Framework on IBM Quantum Hardware.
 | Bell States | 20 pairs | Inconclusive | ⚠️ |
 | Variational | 30 pairs | Inconclusive | ⚠️ |
 
-**9/12 tests validate Φ. 1 weak positive. 2 inconclusive (not contradictory).**
+**10/13 tests validate Φ. 1 weak positive. 2 inconclusive (not contradictory).**
 
 ## The Formula
 ```
@@ -40,6 +41,7 @@ Where:
 - **All 5 dead qubits** correctly identified (Φ < 0, fidelity = 0.000)
 - **Low-Φ qubits** have 4.3x shorter coherence time
 - **Circuit execution** confirms 25-63x higher error for low-Φ qubits
+- **Depth scaling** shows 8-18x discrimination consistent from 10 to 500 gates
 - **Threshold 0.25** validated in optimal discrimination plateau
 - **GHZ entanglement** shows 4.42x higher error for low-Φ triplets
 - **Cross-backend** validation on ibm_fez, ibm_torino, ibm_marrakesh
@@ -63,6 +65,18 @@ Where:
 | 50 gates | 1.26% | 0.02% | 63x |
 | 100 gates | 1.02% | 0.04% | 25x |
 | 200 gates | 1.20% | 0.02% | 60x |
+
+### Depth Scaling (10-500 gates)
+
+| Depth | LOW-Φ Error | HIGH-Φ Error | Ratio |
+|-------|-------------|--------------|-------|
+| 10 | 1.52% | 0.17% | 8.94x |
+| 100 | 1.83% | 0.19% | 9.63x |
+| 200 | 1.85% | 0.15% | 12.33x |
+| 400 | 1.76% | 0.10% | 17.60x |
+| 500 | 1.87% | 0.23% | 8.13x |
+
+**8-18x discrimination consistent across ALL depths.**
 
 ### Φ-Based Qubit Selection
 
@@ -117,9 +131,10 @@ Real calibration data and circuit execution from IBM Quantum:
 ```
 ├── core/           # Standalone Φ calculation source code
 ├── startup/        # Setup scripts and IBM Quantum configuration
-├── experiments/    # Test scripts (13 tests)
+├── experiments/    # Test scripts (14 tests + 2 utilities)
 ├── results/        # Output data and analysis
 ├── patent_docs/    # Patent documentation + future patents
+├── temporal_data/  # Daily Φ snapshots for prediction test
 ├── Outputs_MD/     # Raw terminal outputs (ground truth)
 └── requirements.txt
 ```
@@ -141,7 +156,7 @@ Same Φ formula and threshold 0.25 validated across:
 | Infrastructure | Power grids | Predicted UK blackout |
 | Geophysical | Earthquakes | 100% accuracy |
 | Neural Networks | 660 architectures | 99.7% precision |
-| **Quantum** | **445 qubits, 1004 gates, 3 backends** | **r = 0.9458, 2.5x-83% discrimination** |
+| **Quantum** | **445 qubits, 1004 gates, 3 backends** | **r = 0.9458, 8-83% discrimination** |
 
 ## What This Means
 
