@@ -1,0 +1,4477 @@
+{
+  "timestamp": "2025-12-31T16:50:08.472280",
+  "date": "2025-12-31",
+  "backends": {
+    "ibm_fez": {
+      "num_qubits": 156,
+      "valid_qubits": 156,
+      "skipped_qubits": 0,
+      "qubits": [
+        {
+          "qubit": 0,
+          "phi": 0.907054,
+          "t1_us": 55.35,
+          "t2_us": 50.41,
+          "t2_t1": 0.9109,
+          "fidelity": 0.998582,
+          "readout_error": 0.012207,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 1,
+          "phi": 0.997188,
+          "t1_us": 212.63,
+          "t2_us": 221.72,
+          "t2_t1": 1.0427,
+          "fidelity": 0.999717,
+          "readout_error": 0.022461,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 2,
+          "phi": 0.872516,
+          "t1_us": 141.27,
+          "t2_us": 123.41,
+          "t2_t1": 0.8735,
+          "fidelity": 0.999844,
+          "readout_error": 0.007446,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 3,
+          "phi": 0.913451,
+          "t1_us": 263.53,
+          "t2_us": 241.4,
+          "t2_t1": 0.916,
+          "fidelity": 0.99984,
+          "readout_error": 0.022949,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 4,
+          "phi": 0.76291,
+          "t1_us": 210.54,
+          "t2_us": 160.8,
+          "t2_t1": 0.7638,
+          "fidelity": 0.999794,
+          "readout_error": 0.005615,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 5,
+          "phi": 0.834028,
+          "t1_us": 199.87,
+          "t2_us": 167.38,
+          "t2_t1": 0.8374,
+          "fidelity": 0.999714,
+          "readout_error": 0.029175,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 6,
+          "phi": 0.596299,
+          "t1_us": 231.19,
+          "t2_us": 138.12,
+          "t2_t1": 0.5974,
+          "fidelity": 0.999732,
+          "readout_error": 0.008057,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 7,
+          "phi": 0.300654,
+          "t1_us": 142.84,
+          "t2_us": 43.25,
+          "t2_t1": 0.3028,
+          "fidelity": 0.999531,
+          "readout_error": 0.018433,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 8,
+          "phi": 0.293176,
+          "t1_us": 149.48,
+          "t2_us": 43.97,
+          "t2_t1": 0.2942,
+          "fidelity": 0.999632,
+          "readout_error": 0.00769,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 9,
+          "phi": 0.192811,
+          "t1_us": 173.44,
+          "t2_us": 33.59,
+          "t2_t1": 0.1937,
+          "fidelity": 0.999791,
+          "readout_error": 0.00769,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 10,
+          "phi": 0.659037,
+          "t1_us": 194.52,
+          "t2_us": 128.35,
+          "t2_t1": 0.6598,
+          "fidelity": 0.999837,
+          "readout_error": 0.005737,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 11,
+          "phi": 0.67464,
+          "t1_us": 123.93,
+          "t2_us": 84.25,
+          "t2_t1": 0.6798,
+          "fidelity": 0.997762,
+          "readout_error": 0.021118,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 12,
+          "phi": 0.997013,
+          "t1_us": 75.29,
+          "t2_us": 77.34,
+          "t2_t1": 1.0273,
+          "fidelity": 0.999709,
+          "readout_error": 0.024048,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 13,
+          "phi": 0.733449,
+          "t1_us": 285.07,
+          "t2_us": 209.82,
+          "t2_t1": 0.736,
+          "fidelity": 0.999622,
+          "readout_error": 0.020264,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 14,
+          "phi": 0.352675,
+          "t1_us": 195.07,
+          "t2_us": 69.0,
+          "t2_t1": 0.3537,
+          "fidelity": 0.99976,
+          "readout_error": 0.008545,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 15,
+          "phi": 0.581171,
+          "t1_us": 339.08,
+          "t2_us": 197.86,
+          "t2_t1": 0.5835,
+          "fidelity": 0.999839,
+          "readout_error": 0.021484,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 16,
+          "phi": 0.780095,
+          "t1_us": 193.13,
+          "t2_us": 150.83,
+          "t2_t1": 0.781,
+          "fidelity": 0.999595,
+          "readout_error": 0.002441,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 17,
+          "phi": 0.771112,
+          "t1_us": 142.54,
+          "t2_us": 110.06,
+          "t2_t1": 0.7722,
+          "fidelity": 0.99975,
+          "readout_error": 0.006836,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 18,
+          "phi": 0.545391,
+          "t1_us": 131.44,
+          "t2_us": 71.82,
+          "t2_t1": 0.5464,
+          "fidelity": 0.999638,
+          "readout_error": 0.006226,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 19,
+          "phi": 0.887554,
+          "t1_us": 153.48,
+          "t2_us": 136.58,
+          "t2_t1": 0.8899,
+          "fidelity": 0.999305,
+          "readout_error": 0.011108,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 20,
+          "phi": 0.998745,
+          "t1_us": 119.82,
+          "t2_us": 154.41,
+          "t2_t1": 1.2886,
+          "fidelity": 0.999647,
+          "readout_error": 0.005493,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 21,
+          "phi": 0.517776,
+          "t1_us": 177.8,
+          "t2_us": 92.24,
+          "t2_t1": 0.5188,
+          "fidelity": 0.999742,
+          "readout_error": 0.007202,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 22,
+          "phi": 0.827819,
+          "t1_us": 146.61,
+          "t2_us": 121.57,
+          "t2_t1": 0.8292,
+          "fidelity": 0.999739,
+          "readout_error": 0.009399,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 23,
+          "phi": 0.763652,
+          "t1_us": 223.25,
+          "t2_us": 170.66,
+          "t2_t1": 0.7644,
+          "fidelity": 0.999811,
+          "readout_error": 0.004639,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 24,
+          "phi": 0.997543,
+          "t1_us": 141.63,
+          "t2_us": 169.57,
+          "t2_t1": 1.1973,
+          "fidelity": 0.999193,
+          "readout_error": 0.008423,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 25,
+          "phi": 0.753265,
+          "t1_us": 181.9,
+          "t2_us": 137.28,
+          "t2_t1": 0.7547,
+          "fidelity": 0.999665,
+          "readout_error": 0.009277,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 26,
+          "phi": 0.671785,
+          "t1_us": 166.4,
+          "t2_us": 111.99,
+          "t2_t1": 0.673,
+          "fidelity": 0.999736,
+          "readout_error": 0.008911,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 27,
+          "phi": 0.990958,
+          "t1_us": 87.61,
+          "t2_us": 105.92,
+          "t2_t1": 1.2091,
+          "fidelity": 0.995955,
+          "readout_error": 0.009521,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 28,
+          "phi": 0.998732,
+          "t1_us": 93.68,
+          "t2_us": 103.08,
+          "t2_t1": 1.1004,
+          "fidelity": 0.999775,
+          "readout_error": 0.008179,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 29,
+          "phi": 0.537003,
+          "t1_us": 90.96,
+          "t2_us": 48.96,
+          "t2_t1": 0.5382,
+          "fidelity": 0.999821,
+          "readout_error": 0.009888,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 30,
+          "phi": 0.850227,
+          "t1_us": 148.96,
+          "t2_us": 126.84,
+          "t2_t1": 0.8515,
+          "fidelity": 0.999652,
+          "readout_error": 0.006836,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 31,
+          "phi": 0.575517,
+          "t1_us": 133.35,
+          "t2_us": 77.11,
+          "t2_t1": 0.5783,
+          "fidelity": 0.999224,
+          "readout_error": 0.018555,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 32,
+          "phi": 0.995579,
+          "t1_us": 127.66,
+          "t2_us": 140.9,
+          "t2_t1": 1.1037,
+          "fidelity": 0.999285,
+          "readout_error": 0.029907,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 33,
+          "phi": 0.99815,
+          "t1_us": 84.82,
+          "t2_us": 168.81,
+          "t2_t1": 1.9902,
+          "fidelity": 0.999856,
+          "readout_error": 0.015625,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 34,
+          "phi": 0.717223,
+          "t1_us": 91.71,
+          "t2_us": 65.96,
+          "t2_t1": 0.7193,
+          "fidelity": 0.999278,
+          "readout_error": 0.009888,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 35,
+          "phi": 0.307451,
+          "t1_us": 142.58,
+          "t2_us": 44.06,
+          "t2_t1": 0.309,
+          "fidelity": 0.999761,
+          "readout_error": 0.014404,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 36,
+          "phi": 0.775585,
+          "t1_us": 125.43,
+          "t2_us": 97.49,
+          "t2_t1": 0.7772,
+          "fidelity": 0.999427,
+          "readout_error": 0.007446,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 37,
+          "phi": 0.965328,
+          "t1_us": 169.92,
+          "t2_us": 164.34,
+          "t2_t1": 0.9672,
+          "fidelity": 0.999655,
+          "readout_error": 0.011841,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 38,
+          "phi": 0.998539,
+          "t1_us": 126.73,
+          "t2_us": 161.36,
+          "t2_t1": 1.2733,
+          "fidelity": 0.999697,
+          "readout_error": 0.008545,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 39,
+          "phi": 0.997592,
+          "t1_us": 130.41,
+          "t2_us": 163.28,
+          "t2_t1": 1.2521,
+          "fidelity": 0.999559,
+          "readout_error": 0.015259,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 40,
+          "phi": 0.997845,
+          "t1_us": 175.86,
+          "t2_us": 190.11,
+          "t2_t1": 1.081,
+          "fidelity": 0.99982,
+          "readout_error": 0.017944,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 41,
+          "phi": 0.627045,
+          "t1_us": 209.21,
+          "t2_us": 132.6,
+          "t2_t1": 0.6338,
+          "fidelity": 0.999796,
+          "readout_error": 0.064941,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 42,
+          "phi": 0.270013,
+          "t1_us": 145.6,
+          "t2_us": 39.48,
+          "t2_t1": 0.2711,
+          "fidelity": 0.999775,
+          "readout_error": 0.01001,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 43,
+          "phi": 0.748408,
+          "t1_us": 69.43,
+          "t2_us": 52.75,
+          "t2_t1": 0.7598,
+          "fidelity": 0.999197,
+          "readout_error": 0.10144,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 44,
+          "phi": 0.998706,
+          "t1_us": 75.34,
+          "t2_us": 93.64,
+          "t2_t1": 1.2429,
+          "fidelity": 0.999658,
+          "readout_error": 0.006104,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 45,
+          "phi": 0.797,
+          "t1_us": 233.46,
+          "t2_us": 187.03,
+          "t2_t1": 0.8012,
+          "fidelity": 0.999915,
+          "readout_error": 0.040161,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 46,
+          "phi": 0.072621,
+          "t1_us": 180.1,
+          "t2_us": 13.2,
+          "t2_t1": 0.0733,
+          "fidelity": 0.999611,
+          "readout_error": 0.005981,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 47,
+          "phi": 0.430038,
+          "t1_us": 134.62,
+          "t2_us": 58.24,
+          "t2_t1": 0.4326,
+          "fidelity": 0.999735,
+          "readout_error": 0.023438,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 48,
+          "phi": 0.342978,
+          "t1_us": 130.64,
+          "t2_us": 44.9,
+          "t2_t1": 0.3437,
+          "fidelity": 0.999773,
+          "readout_error": 0.005615,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 49,
+          "phi": 0.258832,
+          "t1_us": 124.52,
+          "t2_us": 32.5,
+          "t2_t1": 0.261,
+          "fidelity": 0.99969,
+          "readout_error": 0.020142,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 50,
+          "phi": 0.745069,
+          "t1_us": 160.11,
+          "t2_us": 119.47,
+          "t2_t1": 0.7462,
+          "fidelity": 0.999716,
+          "readout_error": 0.00708,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 51,
+          "phi": 0.993578,
+          "t1_us": 53.77,
+          "t2_us": 64.19,
+          "t2_t1": 1.1938,
+          "fidelity": 0.999694,
+          "readout_error": 0.058105,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 52,
+          "phi": 0.80059,
+          "t1_us": 160.38,
+          "t2_us": 128.62,
+          "t2_t1": 0.8019,
+          "fidelity": 0.999736,
+          "readout_error": 0.009155,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 53,
+          "phi": 0.07765,
+          "t1_us": 173.6,
+          "t2_us": 14.33,
+          "t2_t1": 0.0825,
+          "fidelity": 0.999823,
+          "readout_error": 0.048462,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 54,
+          "phi": 0.99792,
+          "t1_us": 139.19,
+          "t2_us": 148.4,
+          "t2_t1": 1.0662,
+          "fidelity": 0.999381,
+          "readout_error": 0.008423,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 55,
+          "phi": 0.859448,
+          "t1_us": 201.09,
+          "t2_us": 174.01,
+          "t2_t1": 0.8653,
+          "fidelity": 0.999698,
+          "readout_error": 0.053711,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 56,
+          "phi": 0.998728,
+          "t1_us": 189.04,
+          "t2_us": 190.24,
+          "t2_t1": 1.0064,
+          "fidelity": 0.999736,
+          "readout_error": 0.007446,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 57,
+          "phi": 0.480638,
+          "t1_us": 149.44,
+          "t2_us": 72.05,
+          "t2_t1": 0.4821,
+          "fidelity": 0.999222,
+          "readout_error": 0.007202,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 58,
+          "phi": 0.960076,
+          "t1_us": 154.66,
+          "t2_us": 148.77,
+          "t2_t1": 0.9619,
+          "fidelity": 0.999704,
+          "readout_error": 0.012817,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 59,
+          "phi": 0.998659,
+          "t1_us": 110.72,
+          "t2_us": 113.64,
+          "t2_t1": 1.0264,
+          "fidelity": 0.999622,
+          "readout_error": 0.005859,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 60,
+          "phi": 0.350445,
+          "t1_us": 129.29,
+          "t2_us": 45.76,
+          "t2_t1": 0.3539,
+          "fidelity": 0.99956,
+          "readout_error": 0.031738,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 61,
+          "phi": 0.489401,
+          "t1_us": 225.33,
+          "t2_us": 111.26,
+          "t2_t1": 0.4938,
+          "fidelity": 0.999819,
+          "readout_error": 0.04187,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 62,
+          "phi": 0.303228,
+          "t1_us": 164.25,
+          "t2_us": 50.18,
+          "t2_t1": 0.3055,
+          "fidelity": 0.999681,
+          "readout_error": 0.020752,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 63,
+          "phi": 0.079458,
+          "t1_us": 170.89,
+          "t2_us": 14.16,
+          "t2_t1": 0.0829,
+          "fidelity": 0.999431,
+          "readout_error": 0.033203,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 64,
+          "phi": 0.688426,
+          "t1_us": 98.11,
+          "t2_us": 67.64,
+          "t2_t1": 0.6894,
+          "fidelity": 0.999584,
+          "readout_error": 0.00354,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 65,
+          "phi": 0.722797,
+          "t1_us": 142.9,
+          "t2_us": 104.62,
+          "t2_t1": 0.7321,
+          "fidelity": 0.999591,
+          "readout_error": 0.087158,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 66,
+          "phi": 0.171129,
+          "t1_us": 85.77,
+          "t2_us": 14.79,
+          "t2_t1": 0.1724,
+          "fidelity": 0.999668,
+          "readout_error": 0.011475,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 67,
+          "phi": 0.489481,
+          "t1_us": 136.49,
+          "t2_us": 67.62,
+          "t2_t1": 0.4954,
+          "fidelity": 0.999635,
+          "readout_error": 0.055908,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 68,
+          "phi": 0.998854,
+          "t1_us": 102.55,
+          "t2_us": 104.57,
+          "t2_t1": 1.0198,
+          "fidelity": 0.999702,
+          "readout_error": 0.005493,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 69,
+          "phi": 0.471566,
+          "t1_us": 203.22,
+          "t2_us": 96.02,
+          "t2_t1": 0.4725,
+          "fidelity": 0.999723,
+          "readout_error": 0.006592,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 70,
+          "phi": 0.858182,
+          "t1_us": 92.39,
+          "t2_us": 79.38,
+          "t2_t1": 0.8591,
+          "fidelity": 0.999673,
+          "readout_error": 0.003784,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 71,
+          "phi": 0.767797,
+          "t1_us": 213.9,
+          "t2_us": 164.48,
+          "t2_t1": 0.769,
+          "fidelity": 0.999828,
+          "readout_error": 0.009033,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 72,
+          "phi": -0.034277,
+          "t1_us": 6.69,
+          "t2_us": 99.16,
+          "t2_t1": 14.8137,
+          "fidelity": 0.0,
+          "readout_error": 0.342773,
+          "status": "BAD"
+        },
+        {
+          "qubit": 73,
+          "phi": 0.344328,
+          "t1_us": 236.23,
+          "t2_us": 81.76,
+          "t2_t1": 0.3461,
+          "fidelity": 0.999751,
+          "readout_error": 0.016113,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 74,
+          "phi": 0.95681,
+          "t1_us": 134.36,
+          "t2_us": 128.68,
+          "t2_t1": 0.9577,
+          "fidelity": 0.999842,
+          "readout_error": 0.006226,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 75,
+          "phi": 0.750239,
+          "t1_us": 180.53,
+          "t2_us": 135.66,
+          "t2_t1": 0.7514,
+          "fidelity": 0.999719,
+          "readout_error": 0.007812,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 76,
+          "phi": 0.452917,
+          "t1_us": 189.92,
+          "t2_us": 86.7,
+          "t2_t1": 0.4565,
+          "fidelity": 0.999657,
+          "readout_error": 0.032837,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 77,
+          "phi": 0.400601,
+          "t1_us": 143.49,
+          "t2_us": 57.67,
+          "t2_t1": 0.4019,
+          "fidelity": 0.999608,
+          "readout_error": 0.010132,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 78,
+          "phi": 0.07798,
+          "t1_us": 117.36,
+          "t2_us": 9.74,
+          "t2_t1": 0.083,
+          "fidelity": 0.999573,
+          "readout_error": 0.049805,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 79,
+          "phi": 0.374582,
+          "t1_us": 120.92,
+          "t2_us": 45.42,
+          "t2_t1": 0.3756,
+          "fidelity": 0.999726,
+          "readout_error": 0.008057,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 80,
+          "phi": 0.737725,
+          "t1_us": 118.39,
+          "t2_us": 88.05,
+          "t2_t1": 0.7437,
+          "fidelity": 0.999694,
+          "readout_error": 0.055542,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 81,
+          "phi": 0.117443,
+          "t1_us": 180.78,
+          "t2_us": 21.62,
+          "t2_t1": 0.1196,
+          "fidelity": 0.999843,
+          "readout_error": 0.02124,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 82,
+          "phi": 0.253708,
+          "t1_us": 142.27,
+          "t2_us": 36.17,
+          "t2_t1": 0.2542,
+          "fidelity": 0.999823,
+          "readout_error": 0.004395,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 83,
+          "phi": 0.990963,
+          "t1_us": 86.82,
+          "t2_us": 87.83,
+          "t2_t1": 1.0116,
+          "fidelity": 0.999772,
+          "readout_error": 0.085815,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 84,
+          "phi": 0.926382,
+          "t1_us": 177.82,
+          "t2_us": 164.94,
+          "t2_t1": 0.9275,
+          "fidelity": 0.999755,
+          "readout_error": 0.00708,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 85,
+          "phi": 0.186283,
+          "t1_us": 186.5,
+          "t2_us": 34.98,
+          "t2_t1": 0.1876,
+          "fidelity": 0.999798,
+          "readout_error": 0.011963,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 86,
+          "phi": 0.47831,
+          "t1_us": 197.39,
+          "t2_us": 94.63,
+          "t2_t1": 0.4794,
+          "fidelity": 0.999693,
+          "readout_error": 0.008057,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 87,
+          "phi": 0.995793,
+          "t1_us": 129.85,
+          "t2_us": 143.14,
+          "t2_t1": 1.1024,
+          "fidelity": 0.999783,
+          "readout_error": 0.03772,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 88,
+          "phi": 0.998579,
+          "t1_us": 102.45,
+          "t2_us": 165.05,
+          "t2_t1": 1.611,
+          "fidelity": 0.999686,
+          "readout_error": 0.007935,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 89,
+          "phi": 0.53883,
+          "t1_us": 128.96,
+          "t2_us": 69.69,
+          "t2_t1": 0.5404,
+          "fidelity": 0.99975,
+          "readout_error": 0.013184,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 90,
+          "phi": 0.96167,
+          "t1_us": 136.01,
+          "t2_us": 130.97,
+          "t2_t1": 0.963,
+          "fidelity": 0.999641,
+          "readout_error": 0.005981,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 91,
+          "phi": 0.131958,
+          "t1_us": 148.46,
+          "t2_us": 19.95,
+          "t2_t1": 0.1343,
+          "fidelity": 0.999782,
+          "readout_error": 0.023315,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 92,
+          "phi": 0.998467,
+          "t1_us": 135.89,
+          "t2_us": 139.33,
+          "t2_t1": 1.0252,
+          "fidelity": 0.999734,
+          "readout_error": 0.01001,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 93,
+          "phi": 0.997613,
+          "t1_us": 125.43,
+          "t2_us": 130.96,
+          "t2_t1": 1.0441,
+          "fidelity": 0.999704,
+          "readout_error": 0.017944,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 94,
+          "phi": 0.269742,
+          "t1_us": 186.87,
+          "t2_us": 50.65,
+          "t2_t1": 0.2711,
+          "fidelity": 0.999726,
+          "readout_error": 0.011841,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 95,
+          "phi": 0.998106,
+          "t1_us": 132.67,
+          "t2_us": 153.91,
+          "t2_t1": 1.1601,
+          "fidelity": 0.999572,
+          "readout_error": 0.010376,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 96,
+          "phi": 0.844838,
+          "t1_us": 153.32,
+          "t2_us": 129.69,
+          "t2_t1": 0.8459,
+          "fidelity": 0.99974,
+          "readout_error": 0.006226,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 97,
+          "phi": 0.998275,
+          "t1_us": 75.83,
+          "t2_us": 84.56,
+          "t2_t1": 1.1151,
+          "fidelity": 0.999693,
+          "readout_error": 0.011108,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 98,
+          "phi": 0.156384,
+          "t1_us": 119.93,
+          "t2_us": 18.84,
+          "t2_t1": 0.1571,
+          "fidelity": 0.999733,
+          "readout_error": 0.006348,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 99,
+          "phi": 0.563059,
+          "t1_us": 54.01,
+          "t2_us": 30.49,
+          "t2_t1": 0.5644,
+          "fidelity": 0.999681,
+          "readout_error": 0.010254,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 100,
+          "phi": 0.30224,
+          "t1_us": 103.38,
+          "t2_us": 31.41,
+          "t2_t1": 0.3038,
+          "fidelity": 0.998857,
+          "readout_error": 0.008545,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 101,
+          "phi": 0.993509,
+          "t1_us": 63.82,
+          "t2_us": 79.98,
+          "t2_t1": 1.2532,
+          "fidelity": 0.999678,
+          "readout_error": 0.058472,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 102,
+          "phi": 0.676514,
+          "t1_us": 116.51,
+          "t2_us": 79.18,
+          "t2_t1": 0.6796,
+          "fidelity": 0.999562,
+          "readout_error": 0.024536,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 103,
+          "phi": 0.999107,
+          "t1_us": 112.48,
+          "t2_us": 125.36,
+          "t2_t1": 1.1145,
+          "fidelity": 0.999792,
+          "readout_error": 0.004761,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 104,
+          "phi": 0.7216,
+          "t1_us": 123.61,
+          "t2_us": 89.36,
+          "t2_t1": 0.723,
+          "fidelity": 0.999734,
+          "readout_error": 0.009888,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 105,
+          "phi": 0.817413,
+          "t1_us": 160.04,
+          "t2_us": 131.15,
+          "t2_t1": 0.8195,
+          "fidelity": 0.999758,
+          "readout_error": 0.016724,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 106,
+          "phi": 0.998821,
+          "t1_us": 124.28,
+          "t2_us": 129.17,
+          "t2_t1": 1.0394,
+          "fidelity": 0.999765,
+          "readout_error": 0.00708,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 107,
+          "phi": 0.277972,
+          "t1_us": 67.62,
+          "t2_us": 18.88,
+          "t2_t1": 0.2792,
+          "fidelity": 0.99965,
+          "readout_error": 0.010132,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 108,
+          "phi": 0.944678,
+          "t1_us": 169.01,
+          "t2_us": 159.95,
+          "t2_t1": 0.9464,
+          "fidelity": 0.99941,
+          "readout_error": 0.005981,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 109,
+          "phi": 0.534526,
+          "t1_us": 121.98,
+          "t2_us": 65.37,
+          "t2_t1": 0.5359,
+          "fidelity": 0.999761,
+          "readout_error": 0.01123,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 110,
+          "phi": 0.684276,
+          "t1_us": 174.15,
+          "t2_us": 119.29,
+          "t2_t1": 0.685,
+          "fidelity": 0.999818,
+          "readout_error": 0.004639,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 111,
+          "phi": 0.869219,
+          "t1_us": 119.02,
+          "t2_us": 103.61,
+          "t2_t1": 0.8705,
+          "fidelity": 0.999788,
+          "readout_error": 0.009521,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 112,
+          "phi": 0.961502,
+          "t1_us": 164.06,
+          "t2_us": 157.94,
+          "t2_t1": 0.9626,
+          "fidelity": 0.999844,
+          "readout_error": 0.008423,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 113,
+          "phi": 0.21463,
+          "t1_us": 188.44,
+          "t2_us": 41.89,
+          "t2_t1": 0.2223,
+          "fidelity": 0.99984,
+          "readout_error": 0.07605,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 114,
+          "phi": 0.714887,
+          "t1_us": 136.7,
+          "t2_us": 97.86,
+          "t2_t1": 0.7159,
+          "fidelity": 0.999669,
+          "readout_error": 0.005371,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 115,
+          "phi": 0.99851,
+          "t1_us": 113.41,
+          "t2_us": 155.91,
+          "t2_t1": 1.3748,
+          "fidelity": 0.999774,
+          "readout_error": 0.010376,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 116,
+          "phi": 0.998534,
+          "t1_us": 122.92,
+          "t2_us": 137.78,
+          "t2_t1": 1.1209,
+          "fidelity": 0.999761,
+          "readout_error": 0.009888,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 117,
+          "phi": 0.997822,
+          "t1_us": 152.86,
+          "t2_us": 173.27,
+          "t2_t1": 1.1335,
+          "fidelity": 0.999808,
+          "readout_error": 0.017944,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 118,
+          "phi": 0.519791,
+          "t1_us": 80.37,
+          "t2_us": 41.86,
+          "t2_t1": 0.5208,
+          "fidelity": 0.999772,
+          "readout_error": 0.008057,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 119,
+          "phi": 0.998369,
+          "t1_us": 114.52,
+          "t2_us": 131.0,
+          "t2_t1": 1.1439,
+          "fidelity": 0.99952,
+          "readout_error": 0.006714,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 120,
+          "phi": 0.99876,
+          "t1_us": 143.89,
+          "t2_us": 161.94,
+          "t2_t1": 1.1255,
+          "fidelity": 0.999752,
+          "readout_error": 0.007446,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 121,
+          "phi": 0.923163,
+          "t1_us": 145.14,
+          "t2_us": 134.22,
+          "t2_t1": 0.9247,
+          "fidelity": 0.999851,
+          "readout_error": 0.013062,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 122,
+          "phi": 0.34508,
+          "t1_us": 167.68,
+          "t2_us": 58.02,
+          "t2_t1": 0.346,
+          "fidelity": 0.999674,
+          "readout_error": 0.007324,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 123,
+          "phi": 0.95944,
+          "t1_us": 117.98,
+          "t2_us": 113.52,
+          "t2_t1": 0.9622,
+          "fidelity": 0.999773,
+          "readout_error": 0.022827,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 124,
+          "phi": 0.997787,
+          "t1_us": 125.04,
+          "t2_us": 138.64,
+          "t2_t1": 1.1088,
+          "fidelity": 0.999119,
+          "readout_error": 0.004517,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 125,
+          "phi": 0.351427,
+          "t1_us": 157.71,
+          "t2_us": 55.6,
+          "t2_t1": 0.3525,
+          "fidelity": 0.999895,
+          "readout_error": 0.010254,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 126,
+          "phi": 0.533751,
+          "t1_us": 122.67,
+          "t2_us": 65.57,
+          "t2_t1": 0.5345,
+          "fidelity": 0.999795,
+          "readout_error": 0.005493,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 127,
+          "phi": 0.991363,
+          "t1_us": 104.19,
+          "t2_us": 103.43,
+          "t2_t1": 0.9927,
+          "fidelity": 0.999813,
+          "readout_error": 0.009766,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 128,
+          "phi": 0.538127,
+          "t1_us": 77.62,
+          "t2_us": 41.88,
+          "t2_t1": 0.5395,
+          "fidelity": 0.999701,
+          "readout_error": 0.010254,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 129,
+          "phi": 0.661342,
+          "t1_us": 159.38,
+          "t2_us": 105.82,
+          "t2_t1": 0.664,
+          "fidelity": 0.999779,
+          "readout_error": 0.023315,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 130,
+          "phi": 0.998928,
+          "t1_us": 100.58,
+          "t2_us": 119.09,
+          "t2_t1": 1.1841,
+          "fidelity": 0.999586,
+          "readout_error": 0.002441,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 131,
+          "phi": 0.99099,
+          "t1_us": 121.94,
+          "t2_us": 138.2,
+          "t2_t1": 1.1333,
+          "fidelity": 0.999847,
+          "readout_error": 0.087036,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 132,
+          "phi": 0.999204,
+          "t1_us": 151.64,
+          "t2_us": 175.19,
+          "t2_t1": 1.1553,
+          "fidelity": 0.999743,
+          "readout_error": 0.002808,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 133,
+          "phi": 0.291131,
+          "t1_us": 147.67,
+          "t2_us": 43.2,
+          "t2_t1": 0.2925,
+          "fidelity": 0.999843,
+          "readout_error": 0.013062,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 134,
+          "phi": 0.305131,
+          "t1_us": 114.78,
+          "t2_us": 35.13,
+          "t2_t1": 0.3061,
+          "fidelity": 0.999582,
+          "readout_error": 0.006836,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 135,
+          "phi": 0.914788,
+          "t1_us": 224.16,
+          "t2_us": 206.1,
+          "t2_t1": 0.9194,
+          "fidelity": 0.999774,
+          "readout_error": 0.042358,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 136,
+          "phi": 0.998471,
+          "t1_us": 127.44,
+          "t2_us": 130.17,
+          "t2_t1": 1.0214,
+          "fidelity": 0.999736,
+          "readout_error": 0.01001,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 137,
+          "phi": 0.748109,
+          "t1_us": 88.4,
+          "t2_us": 66.2,
+          "t2_t1": 0.7489,
+          "fidelity": 0.99982,
+          "readout_error": 0.005127,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 138,
+          "phi": 0.99878,
+          "t1_us": 88.31,
+          "t2_us": 112.32,
+          "t2_t1": 1.2719,
+          "fidelity": 0.999762,
+          "readout_error": 0.007446,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 139,
+          "phi": 0.511624,
+          "t1_us": 51.87,
+          "t2_us": 26.61,
+          "t2_t1": 0.5129,
+          "fidelity": 0.999518,
+          "readout_error": 0.008057,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 140,
+          "phi": 0.998102,
+          "t1_us": 118.09,
+          "t2_us": 192.93,
+          "t2_t1": 1.6337,
+          "fidelity": 0.999741,
+          "readout_error": 0.013794,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 141,
+          "phi": 0.634056,
+          "t1_us": 191.82,
+          "t2_us": 121.84,
+          "t2_t1": 0.6352,
+          "fidelity": 0.999848,
+          "readout_error": 0.009155,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 142,
+          "phi": 0.999107,
+          "t1_us": 171.47,
+          "t2_us": 187.84,
+          "t2_t1": 1.0955,
+          "fidelity": 0.999749,
+          "readout_error": 0.003906,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 143,
+          "phi": 0.925704,
+          "t1_us": 210.83,
+          "t2_us": 195.38,
+          "t2_t1": 0.9267,
+          "fidelity": 0.999806,
+          "readout_error": 0.006348,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 144,
+          "phi": 0.999078,
+          "t1_us": 142.06,
+          "t2_us": 191.13,
+          "t2_t1": 1.3454,
+          "fidelity": 0.99982,
+          "readout_error": 0.005615,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 145,
+          "phi": 0.785266,
+          "t1_us": 147.51,
+          "t2_us": 116.12,
+          "t2_t1": 0.7872,
+          "fidelity": 0.999704,
+          "readout_error": 0.014648,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 146,
+          "phi": 0.098635,
+          "t1_us": 152.89,
+          "t2_us": 15.14,
+          "t2_t1": 0.099,
+          "fidelity": 0.999857,
+          "readout_error": 0.00354,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 147,
+          "phi": 0.998852,
+          "t1_us": 143.84,
+          "t2_us": 151.24,
+          "t2_t1": 1.0515,
+          "fidelity": 0.999804,
+          "readout_error": 0.007568,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 148,
+          "phi": 0.998376,
+          "t1_us": 105.85,
+          "t2_us": 129.93,
+          "t2_t1": 1.2275,
+          "fidelity": 0.999469,
+          "readout_error": 0.005615,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 149,
+          "phi": 0.10674,
+          "t1_us": 57.48,
+          "t2_us": 6.43,
+          "t2_t1": 0.1119,
+          "fidelity": 0.999009,
+          "readout_error": 0.049316,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 150,
+          "phi": 0.042382,
+          "t1_us": 174.69,
+          "t2_us": 7.51,
+          "t2_t1": 0.043,
+          "fidelity": 0.999049,
+          "readout_error": 0.005005,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 151,
+          "phi": 0.99869,
+          "t1_us": 98.8,
+          "t2_us": 126.83,
+          "t2_t1": 1.2837,
+          "fidelity": 0.999845,
+          "readout_error": 0.01001,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 152,
+          "phi": 0.9987,
+          "t1_us": 139.98,
+          "t2_us": 189.25,
+          "t2_t1": 1.352,
+          "fidelity": 0.999637,
+          "readout_error": 0.005737,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 153,
+          "phi": 0.537481,
+          "t1_us": 65.47,
+          "t2_us": 35.28,
+          "t2_t1": 0.5388,
+          "fidelity": 0.99957,
+          "readout_error": 0.008423,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 154,
+          "phi": 0.585194,
+          "t1_us": 197.69,
+          "t2_us": 115.92,
+          "t2_t1": 0.5864,
+          "fidelity": 0.999728,
+          "readout_error": 0.008545,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 155,
+          "phi": 0.059869,
+          "t1_us": 255.12,
+          "t2_us": 15.66,
+          "t2_t1": 0.0614,
+          "fidelity": 0.999837,
+          "readout_error": 0.014893,
+          "status": "MARGINAL"
+        }
+      ]
+    },
+    "ibm_torino": {
+      "num_qubits": 133,
+      "valid_qubits": 133,
+      "skipped_qubits": 0,
+      "qubits": [
+        {
+          "qubit": 0,
+          "phi": 0.981778,
+          "t1_us": 129.21,
+          "t2_us": 133.7,
+          "t2_t1": 1.0347,
+          "fidelity": 0.998616,
+          "readout_error": 0.154541,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 1,
+          "phi": 0.699565,
+          "t1_us": 273.01,
+          "t2_us": 192.72,
+          "t2_t1": 0.7059,
+          "fidelity": 0.999818,
+          "readout_error": 0.061035,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 2,
+          "phi": 0.910393,
+          "t1_us": 196.86,
+          "t2_us": 179.89,
+          "t2_t1": 0.9138,
+          "fidelity": 0.999602,
+          "readout_error": 0.026733,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 3,
+          "phi": 0.611149,
+          "t1_us": 240.55,
+          "t2_us": 147.49,
+          "t2_t1": 0.6131,
+          "fidelity": 0.99968,
+          "readout_error": 0.015747,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 4,
+          "phi": 0.995888,
+          "t1_us": 99.1,
+          "t2_us": 137.98,
+          "t2_t1": 1.3923,
+          "fidelity": 0.999763,
+          "readout_error": 0.036377,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 5,
+          "phi": 0.658773,
+          "t1_us": 213.71,
+          "t2_us": 141.5,
+          "t2_t1": 0.6621,
+          "fidelity": 0.999568,
+          "readout_error": 0.027344,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 6,
+          "phi": 0.997915,
+          "t1_us": 44.64,
+          "t2_us": 79.69,
+          "t2_t1": 1.7853,
+          "fidelity": 0.999586,
+          "readout_error": 0.012573,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 7,
+          "phi": 0.555828,
+          "t1_us": 222.89,
+          "t2_us": 125.75,
+          "t2_t1": 0.5642,
+          "fidelity": 0.999309,
+          "readout_error": 0.075806,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 8,
+          "phi": 0.67387,
+          "t1_us": 222.32,
+          "t2_us": 151.36,
+          "t2_t1": 0.6808,
+          "fidelity": 0.999662,
+          "readout_error": 0.065186,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 9,
+          "phi": 0.97301,
+          "t1_us": 74.64,
+          "t2_us": 72.8,
+          "t2_t1": 0.9754,
+          "fidelity": 0.99963,
+          "readout_error": 0.016357,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 10,
+          "phi": 0.759663,
+          "t1_us": 268.4,
+          "t2_us": 205.43,
+          "t2_t1": 0.7654,
+          "fidelity": 0.999788,
+          "readout_error": 0.054077,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 11,
+          "phi": 0.998875,
+          "t1_us": 125.1,
+          "t2_us": 148.76,
+          "t2_t1": 1.1891,
+          "fidelity": 0.999828,
+          "readout_error": 0.007812,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 12,
+          "phi": 0.807683,
+          "t1_us": 205.9,
+          "t2_us": 166.73,
+          "t2_t1": 0.8098,
+          "fidelity": 0.999886,
+          "readout_error": 0.018921,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 13,
+          "phi": 0.611903,
+          "t1_us": 233.86,
+          "t2_us": 143.78,
+          "t2_t1": 0.6148,
+          "fidelity": 0.999793,
+          "readout_error": 0.026733,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 14,
+          "phi": 0.575746,
+          "t1_us": 202.64,
+          "t2_us": 117.39,
+          "t2_t1": 0.5793,
+          "fidelity": 0.999768,
+          "readout_error": 0.033081,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 15,
+          "phi": 0.378729,
+          "t1_us": 82.28,
+          "t2_us": 31.42,
+          "t2_t1": 0.3819,
+          "fidelity": 0.997876,
+          "readout_error": 0.015137,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 16,
+          "phi": 0.952422,
+          "t1_us": 196.43,
+          "t2_us": 187.63,
+          "t2_t1": 0.9552,
+          "fidelity": 0.999854,
+          "readout_error": 0.025269,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 17,
+          "phi": 0.329037,
+          "t1_us": 164.1,
+          "t2_us": 54.22,
+          "t2_t1": 0.3304,
+          "fidelity": 0.999289,
+          "readout_error": 0.009277,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 18,
+          "phi": 0.999003,
+          "t1_us": 231.07,
+          "t2_us": 234.67,
+          "t2_t1": 1.0156,
+          "fidelity": 0.999807,
+          "readout_error": 0.006104,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 19,
+          "phi": 0.991989,
+          "t1_us": 178.53,
+          "t2_us": 235.72,
+          "t2_t1": 1.3203,
+          "fidelity": 0.998985,
+          "readout_error": 0.059814,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 20,
+          "phi": 0.576417,
+          "t1_us": 185.44,
+          "t2_us": 107.29,
+          "t2_t1": 0.5786,
+          "fidelity": 0.999783,
+          "readout_error": 0.019287,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 21,
+          "phi": 0.309283,
+          "t1_us": 76.76,
+          "t2_us": 24.34,
+          "t2_t1": 0.3171,
+          "fidelity": 0.999348,
+          "readout_error": 0.074463,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 22,
+          "phi": 0.995609,
+          "t1_us": 79.87,
+          "t2_us": 89.37,
+          "t2_t1": 1.119,
+          "fidelity": 0.999611,
+          "readout_error": 0.036133,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 23,
+          "phi": 0.992077,
+          "t1_us": 179.3,
+          "t2_us": 190.0,
+          "t2_t1": 1.0597,
+          "fidelity": 0.999676,
+          "readout_error": 0.072754,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 24,
+          "phi": 0.99664,
+          "t1_us": 114.61,
+          "t2_us": 123.35,
+          "t2_t1": 1.0762,
+          "fidelity": 0.999815,
+          "readout_error": 0.029907,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 25,
+          "phi": 0.989471,
+          "t1_us": 212.8,
+          "t2_us": 223.52,
+          "t2_t1": 1.0504,
+          "fidelity": 0.999704,
+          "readout_error": 0.099365,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 26,
+          "phi": 0.632168,
+          "t1_us": 72.18,
+          "t2_us": 46.14,
+          "t2_t1": 0.6393,
+          "fidelity": 0.99691,
+          "readout_error": 0.031738,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 27,
+          "phi": 0.665273,
+          "t1_us": 196.81,
+          "t2_us": 132.11,
+          "t2_t1": 0.6713,
+          "fidelity": 0.999713,
+          "readout_error": 0.05603,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 28,
+          "phi": 0.888221,
+          "t1_us": 240.0,
+          "t2_us": 213.47,
+          "t2_t1": 0.8895,
+          "fidelity": 0.999724,
+          "readout_error": 0.007446,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 29,
+          "phi": 0.987065,
+          "t1_us": 99.13,
+          "t2_us": 98.14,
+          "t2_t1": 0.99,
+          "fidelity": 0.999664,
+          "readout_error": 0.022827,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 30,
+          "phi": 0.801695,
+          "t1_us": 155.98,
+          "t2_us": 125.43,
+          "t2_t1": 0.8041,
+          "fidelity": 0.999495,
+          "readout_error": 0.016357,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 31,
+          "phi": 0.97491,
+          "t1_us": 220.49,
+          "t2_us": 216.66,
+          "t2_t1": 0.9826,
+          "fidelity": 0.999783,
+          "readout_error": 0.07312,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 32,
+          "phi": 0.762839,
+          "t1_us": 162.34,
+          "t2_us": 124.22,
+          "t2_t1": 0.7652,
+          "fidelity": 0.99963,
+          "readout_error": 0.0177,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 33,
+          "phi": 0.318814,
+          "t1_us": 204.06,
+          "t2_us": 65.94,
+          "t2_t1": 0.3231,
+          "fidelity": 0.99949,
+          "readout_error": 0.039795,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 34,
+          "phi": 0.537729,
+          "t1_us": 133.91,
+          "t2_us": 72.49,
+          "t2_t1": 0.5414,
+          "fidelity": 0.999735,
+          "readout_error": 0.033447,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 35,
+          "phi": 0.998075,
+          "t1_us": 101.75,
+          "t2_us": 109.25,
+          "t2_t1": 1.0737,
+          "fidelity": 0.999727,
+          "readout_error": 0.013794,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 36,
+          "phi": 0.998698,
+          "t1_us": 107.04,
+          "t2_us": 131.03,
+          "t2_t1": 1.2241,
+          "fidelity": 0.999569,
+          "readout_error": 0.004395,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 37,
+          "phi": 0.591367,
+          "t1_us": 166.65,
+          "t2_us": 98.66,
+          "t2_t1": 0.592,
+          "fidelity": 0.999732,
+          "readout_error": 0.00354,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 38,
+          "phi": 0.804508,
+          "t1_us": 216.47,
+          "t2_us": 176.08,
+          "t2_t1": 0.8134,
+          "fidelity": 0.999789,
+          "readout_error": 0.085571,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 39,
+          "phi": 0.996003,
+          "t1_us": 134.14,
+          "t2_us": 147.19,
+          "t2_t1": 1.0973,
+          "fidelity": 0.999814,
+          "readout_error": 0.036255,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 40,
+          "phi": 0.944646,
+          "t1_us": 182.25,
+          "t2_us": 172.71,
+          "t2_t1": 0.9477,
+          "fidelity": 0.999694,
+          "readout_error": 0.024658,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 41,
+          "phi": 0.829757,
+          "t1_us": 63.36,
+          "t2_us": 58.25,
+          "t2_t1": 0.9193,
+          "fidelity": 0.955845,
+          "readout_error": 0.08374,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 42,
+          "phi": 0.787651,
+          "t1_us": 141.77,
+          "t2_us": 113.78,
+          "t2_t1": 0.8025,
+          "fidelity": 0.999458,
+          "readout_error": 0.140015,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 43,
+          "phi": 0.998256,
+          "t1_us": 72.39,
+          "t2_us": 74.68,
+          "t2_t1": 1.0316,
+          "fidelity": 0.99972,
+          "readout_error": 0.011841,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 44,
+          "phi": 0.766105,
+          "t1_us": 295.81,
+          "t2_us": 227.96,
+          "t2_t1": 0.7706,
+          "fidelity": 0.999713,
+          "readout_error": 0.040894,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 45,
+          "phi": 0.998208,
+          "t1_us": 47.05,
+          "t2_us": 61.55,
+          "t2_t1": 1.3082,
+          "fidelity": 0.999556,
+          "readout_error": 0.009033,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 46,
+          "phi": 0.864323,
+          "t1_us": 182.38,
+          "t2_us": 158.75,
+          "t2_t1": 0.8704,
+          "fidelity": 0.999806,
+          "readout_error": 0.057739,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 47,
+          "phi": 0.304403,
+          "t1_us": 202.81,
+          "t2_us": 62.15,
+          "t2_t1": 0.3065,
+          "fidelity": 0.999633,
+          "readout_error": 0.018311,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 48,
+          "phi": 0.615235,
+          "t1_us": 149.7,
+          "t2_us": 92.77,
+          "t2_t1": 0.6197,
+          "fidelity": 0.9998,
+          "readout_error": 0.042358,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 49,
+          "phi": 0.646287,
+          "t1_us": 191.02,
+          "t2_us": 123.83,
+          "t2_t1": 0.6483,
+          "fidelity": 0.999829,
+          "readout_error": 0.017456,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 50,
+          "phi": 0.93619,
+          "t1_us": 215.07,
+          "t2_us": 204.13,
+          "t2_t1": 0.9491,
+          "fidelity": 0.999668,
+          "readout_error": 0.123169,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 51,
+          "phi": 0.751093,
+          "t1_us": 214.02,
+          "t2_us": 161.04,
+          "t2_t1": 0.7525,
+          "fidelity": 0.999622,
+          "readout_error": 0.007935,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 52,
+          "phi": 0.996062,
+          "t1_us": 164.35,
+          "t2_us": 199.94,
+          "t2_t1": 1.2165,
+          "fidelity": 0.999612,
+          "readout_error": 0.031616,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 53,
+          "phi": -0.045618,
+          "t1_us": 22.37,
+          "t2_us": 62.41,
+          "t2_t1": 2.7902,
+          "fidelity": 0.0,
+          "readout_error": 0.456177,
+          "status": "BAD"
+        },
+        {
+          "qubit": 54,
+          "phi": 0.769597,
+          "t1_us": 169.73,
+          "t2_us": 131.16,
+          "t2_t1": 0.7728,
+          "fidelity": 0.99967,
+          "readout_error": 0.026611,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 55,
+          "phi": 0.631566,
+          "t1_us": 239.04,
+          "t2_us": 151.27,
+          "t2_t1": 0.6328,
+          "fidelity": 0.999822,
+          "readout_error": 0.010132,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 56,
+          "phi": 0.679503,
+          "t1_us": 290.62,
+          "t2_us": 197.97,
+          "t2_t1": 0.6812,
+          "fidelity": 0.999838,
+          "readout_error": 0.014771,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 57,
+          "phi": 0.996307,
+          "t1_us": 59.4,
+          "t2_us": 218.34,
+          "t2_t1": 3.6759,
+          "fidelity": 0.999563,
+          "readout_error": 0.028198,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 58,
+          "phi": 0.946971,
+          "t1_us": 178.73,
+          "t2_us": 169.64,
+          "t2_t1": 0.9492,
+          "fidelity": 0.999752,
+          "readout_error": 0.017334,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 59,
+          "phi": 0.819301,
+          "t1_us": 178.96,
+          "t2_us": 147.5,
+          "t2_t1": 0.8242,
+          "fidelity": 0.999718,
+          "readout_error": 0.044678,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 60,
+          "phi": 0.998402,
+          "t1_us": 208.72,
+          "t2_us": 224.23,
+          "t2_t1": 1.0743,
+          "fidelity": 0.999836,
+          "readout_error": 0.012695,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 61,
+          "phi": 0.840633,
+          "t1_us": 245.64,
+          "t2_us": 207.09,
+          "t2_t1": 0.8431,
+          "fidelity": 0.999366,
+          "readout_error": 0.01355,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 62,
+          "phi": 0.821664,
+          "t1_us": 141.22,
+          "t2_us": 116.26,
+          "t2_t1": 0.8233,
+          "fidelity": 0.999662,
+          "readout_error": 0.010376,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 63,
+          "phi": 0.514805,
+          "t1_us": 287.25,
+          "t2_us": 149.28,
+          "t2_t1": 0.5197,
+          "fidelity": 0.999484,
+          "readout_error": 0.043457,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 64,
+          "phi": 0.649381,
+          "t1_us": 261.21,
+          "t2_us": 171.36,
+          "t2_t1": 0.656,
+          "fidelity": 0.999891,
+          "readout_error": 0.064819,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 65,
+          "phi": 0.998352,
+          "t1_us": 241.77,
+          "t2_us": 265.1,
+          "t2_t1": 1.0965,
+          "fidelity": 0.999799,
+          "readout_error": 0.012451,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 66,
+          "phi": 0.853364,
+          "t1_us": 249.61,
+          "t2_us": 213.31,
+          "t2_t1": 0.8545,
+          "fidelity": 0.999662,
+          "readout_error": 0.005981,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 67,
+          "phi": 0.713574,
+          "t1_us": 184.47,
+          "t2_us": 132.95,
+          "t2_t1": 0.7207,
+          "fidelity": 0.99955,
+          "readout_error": 0.064819,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 68,
+          "phi": 0.573119,
+          "t1_us": 131.7,
+          "t2_us": 75.67,
+          "t2_t1": 0.5746,
+          "fidelity": 0.999613,
+          "readout_error": 0.009888,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 69,
+          "phi": 0.425564,
+          "t1_us": 172.61,
+          "t2_us": 74.17,
+          "t2_t1": 0.4297,
+          "fidelity": 0.999662,
+          "readout_error": 0.038086,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 70,
+          "phi": 0.45522,
+          "t1_us": 78.92,
+          "t2_us": 36.34,
+          "t2_t1": 0.4605,
+          "fidelity": 0.999461,
+          "readout_error": 0.047729,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 71,
+          "phi": 0.179274,
+          "t1_us": 201.28,
+          "t2_us": 37.22,
+          "t2_t1": 0.1849,
+          "fidelity": 0.999652,
+          "readout_error": 0.055298,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 72,
+          "phi": 0.365098,
+          "t1_us": 222.7,
+          "t2_us": 81.67,
+          "t2_t1": 0.3667,
+          "fidelity": 0.999571,
+          "readout_error": 0.012939,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 73,
+          "phi": 0.375599,
+          "t1_us": 288.89,
+          "t2_us": 109.23,
+          "t2_t1": 0.3781,
+          "fidelity": 0.99924,
+          "readout_error": 0.019165,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 74,
+          "phi": 0.57988,
+          "t1_us": 165.26,
+          "t2_us": 96.14,
+          "t2_t1": 0.5818,
+          "fidelity": 0.999776,
+          "readout_error": 0.016357,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 75,
+          "phi": 0.500879,
+          "t1_us": 187.2,
+          "t2_us": 94.13,
+          "t2_t1": 0.5028,
+          "fidelity": 0.999094,
+          "readout_error": 0.010376,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 76,
+          "phi": 0.757049,
+          "t1_us": 208.04,
+          "t2_us": 158.94,
+          "t2_t1": 0.764,
+          "fidelity": 0.999641,
+          "readout_error": 0.063843,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 77,
+          "phi": 0.824432,
+          "t1_us": 242.01,
+          "t2_us": 200.33,
+          "t2_t1": 0.8278,
+          "fidelity": 0.999764,
+          "readout_error": 0.029663,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 78,
+          "phi": 0.992584,
+          "t1_us": 80.92,
+          "t2_us": 94.57,
+          "t2_t1": 1.1687,
+          "fidelity": 0.998819,
+          "readout_error": 0.050537,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 79,
+          "phi": 0.990808,
+          "t1_us": 109.59,
+          "t2_us": 118.18,
+          "t2_t1": 1.0784,
+          "fidelity": 0.997309,
+          "readout_error": 0.038086,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 80,
+          "phi": 0.163411,
+          "t1_us": 172.44,
+          "t2_us": 28.54,
+          "t2_t1": 0.1655,
+          "fidelity": 0.999794,
+          "readout_error": 0.020386,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 81,
+          "phi": 0.850263,
+          "t1_us": 174.73,
+          "t2_us": 148.8,
+          "t2_t1": 0.8516,
+          "fidelity": 0.999639,
+          "readout_error": 0.007446,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 82,
+          "phi": 0.503527,
+          "t1_us": 185.95,
+          "t2_us": 95.19,
+          "t2_t1": 0.5119,
+          "fidelity": 0.999653,
+          "readout_error": 0.080078,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 83,
+          "phi": 0.559559,
+          "t1_us": 173.37,
+          "t2_us": 97.47,
+          "t2_t1": 0.5622,
+          "fidelity": 0.999528,
+          "readout_error": 0.020874,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 84,
+          "phi": 0.754833,
+          "t1_us": 198.01,
+          "t2_us": 151.08,
+          "t2_t1": 0.763,
+          "fidelity": 0.999507,
+          "readout_error": 0.073975,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 85,
+          "phi": 0.989552,
+          "t1_us": 2.91,
+          "t2_us": 6.16,
+          "t2_t1": 2.1158,
+          "fidelity": 0.996473,
+          "readout_error": 0.033936,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 86,
+          "phi": 0.409586,
+          "t1_us": 185.41,
+          "t2_us": 80.56,
+          "t2_t1": 0.4345,
+          "fidelity": 0.999614,
+          "readout_error": 0.245972,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 87,
+          "phi": 0.933051,
+          "t1_us": 216.62,
+          "t2_us": 202.29,
+          "t2_t1": 0.9338,
+          "fidelity": 0.999879,
+          "readout_error": 0.005615,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 88,
+          "phi": 0.91873,
+          "t1_us": 295.65,
+          "t2_us": 275.14,
+          "t2_t1": 0.9306,
+          "fidelity": 0.999733,
+          "readout_error": 0.114014,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 89,
+          "phi": 0.746394,
+          "t1_us": 223.39,
+          "t2_us": 168.46,
+          "t2_t1": 0.7541,
+          "fidelity": 0.999643,
+          "readout_error": 0.071777,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 90,
+          "phi": 0.995519,
+          "t1_us": 221.63,
+          "t2_us": 295.74,
+          "t2_t1": 1.3344,
+          "fidelity": 0.999566,
+          "readout_error": 0.036133,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 91,
+          "phi": 0.529107,
+          "t1_us": 190.01,
+          "t2_us": 100.85,
+          "t2_t1": 0.5307,
+          "fidelity": 0.999608,
+          "readout_error": 0.012085,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 92,
+          "phi": 0.794727,
+          "t1_us": 237.72,
+          "t2_us": 189.24,
+          "t2_t1": 0.7961,
+          "fidelity": 0.99976,
+          "readout_error": 0.009766,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 93,
+          "phi": 0.708492,
+          "t1_us": 227.85,
+          "t2_us": 161.68,
+          "t2_t1": 0.7096,
+          "fidelity": 0.999847,
+          "readout_error": 0.008789,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 94,
+          "phi": 0.998377,
+          "t1_us": 183.8,
+          "t2_us": 187.77,
+          "t2_t1": 1.0216,
+          "fidelity": 0.999891,
+          "readout_error": 0.014038,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 95,
+          "phi": 0.995951,
+          "t1_us": 176.44,
+          "t2_us": 248.24,
+          "t2_t1": 1.407,
+          "fidelity": 0.999654,
+          "readout_error": 0.033569,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 96,
+          "phi": 0.94824,
+          "t1_us": 123.69,
+          "t2_us": 117.51,
+          "t2_t1": 0.95,
+          "fidelity": 0.999647,
+          "readout_error": 0.011353,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 97,
+          "phi": 0.987936,
+          "t1_us": 202.05,
+          "t2_us": 259.22,
+          "t2_t1": 1.2829,
+          "fidelity": 0.999742,
+          "readout_error": 0.115479,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 98,
+          "phi": 0.527556,
+          "t1_us": 170.04,
+          "t2_us": 90.42,
+          "t2_t1": 0.5317,
+          "fidelity": 0.997995,
+          "readout_error": 0.020386,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 99,
+          "phi": 0.778614,
+          "t1_us": 155.12,
+          "t2_us": 121.61,
+          "t2_t1": 0.7839,
+          "fidelity": 0.99985,
+          "readout_error": 0.050903,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 100,
+          "phi": 0.823786,
+          "t1_us": 136.12,
+          "t2_us": 113.37,
+          "t2_t1": 0.8329,
+          "fidelity": 0.997651,
+          "readout_error": 0.051636,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 101,
+          "phi": 0.543428,
+          "t1_us": 122.84,
+          "t2_us": 68.28,
+          "t2_t1": 0.5559,
+          "fidelity": 0.999737,
+          "readout_error": 0.12146,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 102,
+          "phi": 0.241177,
+          "t1_us": 133.67,
+          "t2_us": 32.47,
+          "t2_t1": 0.2429,
+          "fidelity": 0.999719,
+          "readout_error": 0.016113,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 103,
+          "phi": 0.336281,
+          "t1_us": 256.83,
+          "t2_us": 88.19,
+          "t2_t1": 0.3434,
+          "fidelity": 0.999831,
+          "readout_error": 0.069824,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 104,
+          "phi": 0.995897,
+          "t1_us": 84.85,
+          "t2_us": 97.56,
+          "t2_t1": 1.1497,
+          "fidelity": 0.999182,
+          "readout_error": 0.024658,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 105,
+          "phi": 0.984771,
+          "t1_us": 122.45,
+          "t2_us": 130.92,
+          "t2_t1": 1.0692,
+          "fidelity": 0.998336,
+          "readout_error": 0.119019,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 106,
+          "phi": 0.97391,
+          "t1_us": 115.65,
+          "t2_us": 114.24,
+          "t2_t1": 0.9878,
+          "fidelity": 0.998577,
+          "readout_error": 0.110596,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 107,
+          "phi": 0.951251,
+          "t1_us": 222.41,
+          "t2_us": 211.99,
+          "t2_t1": 0.9531,
+          "fidelity": 0.999722,
+          "readout_error": 0.013672,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 108,
+          "phi": 0.997512,
+          "t1_us": 60.35,
+          "t2_us": 93.57,
+          "t2_t1": 1.5504,
+          "fidelity": 0.999384,
+          "readout_error": 0.012573,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 109,
+          "phi": 0.993424,
+          "t1_us": 244.74,
+          "t2_us": 306.92,
+          "t2_t1": 1.2541,
+          "fidelity": 0.999782,
+          "readout_error": 0.061401,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 110,
+          "phi": 0.769583,
+          "t1_us": 239.72,
+          "t2_us": 184.77,
+          "t2_t1": 0.7708,
+          "fidelity": 0.99983,
+          "readout_error": 0.009155,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 111,
+          "phi": 0.500188,
+          "t1_us": 232.47,
+          "t2_us": 116.68,
+          "t2_t1": 0.5019,
+          "fidelity": 0.999742,
+          "readout_error": 0.014648,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 112,
+          "phi": 0.798171,
+          "t1_us": 194.93,
+          "t2_us": 155.94,
+          "t2_t1": 0.8,
+          "fidelity": 0.999648,
+          "readout_error": 0.012207,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 113,
+          "phi": 0.994891,
+          "t1_us": 154.38,
+          "t2_us": 180.49,
+          "t2_t1": 1.1691,
+          "fidelity": 0.998941,
+          "readout_error": 0.029907,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 114,
+          "phi": 0.822809,
+          "t1_us": 171.21,
+          "t2_us": 142.47,
+          "t2_t1": 0.8321,
+          "fidelity": 0.999836,
+          "readout_error": 0.09021,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 115,
+          "phi": 0.985976,
+          "t1_us": 86.08,
+          "t2_us": 93.08,
+          "t2_t1": 1.0814,
+          "fidelity": 0.999244,
+          "readout_error": 0.125122,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 116,
+          "phi": 0.767428,
+          "t1_us": 220.77,
+          "t2_us": 170.53,
+          "t2_t1": 0.7724,
+          "fidelity": 0.999776,
+          "readout_error": 0.046631,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 117,
+          "phi": 0.597013,
+          "t1_us": 119.07,
+          "t2_us": 71.21,
+          "t2_t1": 0.5981,
+          "fidelity": 0.999578,
+          "readout_error": 0.005371,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 118,
+          "phi": 0.989471,
+          "t1_us": 101.45,
+          "t2_us": 140.83,
+          "t2_t1": 1.3882,
+          "fidelity": 0.999624,
+          "readout_error": 0.097778,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 119,
+          "phi": 0.91552,
+          "t1_us": 91.32,
+          "t2_us": 83.96,
+          "t2_t1": 0.9194,
+          "fidelity": 0.999823,
+          "readout_error": 0.036011,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 120,
+          "phi": 0.897253,
+          "t1_us": 123.17,
+          "t2_us": 110.86,
+          "t2_t1": 0.9,
+          "fidelity": 0.99975,
+          "readout_error": 0.023438,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 121,
+          "phi": 0.78407,
+          "t1_us": 229.12,
+          "t2_us": 180.38,
+          "t2_t1": 0.7873,
+          "fidelity": 0.999753,
+          "readout_error": 0.028198,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 122,
+          "phi": 0.783813,
+          "t1_us": 193.63,
+          "t2_us": 152.86,
+          "t2_t1": 0.7894,
+          "fidelity": 0.99969,
+          "readout_error": 0.051392,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 123,
+          "phi": 0.832667,
+          "t1_us": 48.95,
+          "t2_us": 41.04,
+          "t2_t1": 0.8385,
+          "fidelity": 0.998288,
+          "readout_error": 0.029175,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 124,
+          "phi": 0.722529,
+          "t1_us": 138.18,
+          "t2_us": 101.73,
+          "t2_t1": 0.7362,
+          "fidelity": 0.999706,
+          "readout_error": 0.132446,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 125,
+          "phi": 0.860944,
+          "t1_us": 166.37,
+          "t2_us": 143.44,
+          "t2_t1": 0.8622,
+          "fidelity": 0.99974,
+          "readout_error": 0.007935,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 126,
+          "phi": 0.968887,
+          "t1_us": 180.04,
+          "t2_us": 176.22,
+          "t2_t1": 0.9788,
+          "fidelity": 0.999679,
+          "readout_error": 0.092896,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 127,
+          "phi": 0.495206,
+          "t1_us": 226.57,
+          "t2_us": 115.74,
+          "t2_t1": 0.5108,
+          "fidelity": 0.999606,
+          "readout_error": 0.152222,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 128,
+          "phi": 0.63524,
+          "t1_us": 270.71,
+          "t2_us": 174.83,
+          "t2_t1": 0.6458,
+          "fidelity": 0.999785,
+          "readout_error": 0.102905,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 129,
+          "phi": 0.533043,
+          "t1_us": 195.9,
+          "t2_us": 105.75,
+          "t2_t1": 0.5398,
+          "fidelity": 0.997667,
+          "readout_error": 0.04248,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 130,
+          "phi": 0.776777,
+          "t1_us": 204.98,
+          "t2_us": 159.62,
+          "t2_t1": 0.7787,
+          "fidelity": 0.999713,
+          "readout_error": 0.014771,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 131,
+          "phi": 0.286496,
+          "t1_us": 217.03,
+          "t2_us": 62.4,
+          "t2_t1": 0.2875,
+          "fidelity": 0.999532,
+          "readout_error": 0.00769,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 132,
+          "phi": 0.857001,
+          "t1_us": 236.59,
+          "t2_us": 203.22,
+          "t2_t1": 0.859,
+          "fidelity": 0.999845,
+          "readout_error": 0.01709,
+          "status": "GOOD"
+        }
+      ]
+    },
+    "ibm_marrakesh": {
+      "num_qubits": 156,
+      "valid_qubits": 156,
+      "skipped_qubits": 0,
+      "qubits": [
+        {
+          "qubit": 0,
+          "phi": 0.176667,
+          "t1_us": 242.05,
+          "t2_us": 43.09,
+          "t2_t1": 0.178,
+          "fidelity": 0.99936,
+          "readout_error": 0.011353,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 1,
+          "phi": 0.938331,
+          "t1_us": 185.76,
+          "t2_us": 174.51,
+          "t2_t1": 0.9394,
+          "fidelity": 0.999667,
+          "readout_error": 0.004883,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 2,
+          "phi": 0.918622,
+          "t1_us": 334.19,
+          "t2_us": 307.26,
+          "t2_t1": 0.9194,
+          "fidelity": 0.999783,
+          "readout_error": 0.003906,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 3,
+          "phi": 0.998816,
+          "t1_us": 235.21,
+          "t2_us": 334.07,
+          "t2_t1": 1.4203,
+          "fidelity": 0.99978,
+          "readout_error": 0.007446,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 4,
+          "phi": 0.566389,
+          "t1_us": 176.79,
+          "t2_us": 100.45,
+          "t2_t1": 0.5682,
+          "fidelity": 0.999653,
+          "readout_error": 0.014404,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 5,
+          "phi": 0.351601,
+          "t1_us": 348.73,
+          "t2_us": 122.82,
+          "t2_t1": 0.3522,
+          "fidelity": 0.999763,
+          "readout_error": 0.004272,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 6,
+          "phi": 0.554547,
+          "t1_us": 242.39,
+          "t2_us": 134.59,
+          "t2_t1": 0.5552,
+          "fidelity": 0.999819,
+          "readout_error": 0.005005,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 7,
+          "phi": 0.357954,
+          "t1_us": 221.2,
+          "t2_us": 79.49,
+          "t2_t1": 0.3594,
+          "fidelity": 0.999645,
+          "readout_error": 0.011719,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 8,
+          "phi": 0.362552,
+          "t1_us": 236.78,
+          "t2_us": 86.11,
+          "t2_t1": 0.3637,
+          "fidelity": 0.999729,
+          "readout_error": 0.009277,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 9,
+          "phi": 0.609635,
+          "t1_us": 226.92,
+          "t2_us": 139.38,
+          "t2_t1": 0.6142,
+          "fidelity": 0.999759,
+          "readout_error": 0.043091,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 10,
+          "phi": 0.552707,
+          "t1_us": 254.25,
+          "t2_us": 140.74,
+          "t2_t1": 0.5536,
+          "fidelity": 0.999794,
+          "readout_error": 0.006348,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 11,
+          "phi": 0.449486,
+          "t1_us": 250.16,
+          "t2_us": 113.33,
+          "t2_t1": 0.453,
+          "fidelity": 0.999705,
+          "readout_error": 0.032715,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 12,
+          "phi": 0.756747,
+          "t1_us": 204.07,
+          "t2_us": 154.55,
+          "t2_t1": 0.7573,
+          "fidelity": 0.999781,
+          "readout_error": 0.002563,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 13,
+          "phi": 0.713212,
+          "t1_us": 228.33,
+          "t2_us": 163.5,
+          "t2_t1": 0.716,
+          "fidelity": 0.999788,
+          "readout_error": 0.025269,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 14,
+          "phi": 0.460968,
+          "t1_us": 296.48,
+          "t2_us": 136.84,
+          "t2_t1": 0.4616,
+          "fidelity": 0.999898,
+          "readout_error": 0.004883,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 15,
+          "phi": 0.117045,
+          "t1_us": 370.23,
+          "t2_us": 43.55,
+          "t2_t1": 0.1176,
+          "fidelity": 0.999874,
+          "readout_error": 0.005493,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 16,
+          "phi": 0.285956,
+          "t1_us": 139.31,
+          "t2_us": 40.02,
+          "t2_t1": 0.2873,
+          "fidelity": 0.999531,
+          "readout_error": 0.01062,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 17,
+          "phi": 0.061125,
+          "t1_us": 180.15,
+          "t2_us": 11.2,
+          "t2_t1": 0.0622,
+          "fidelity": 0.999382,
+          "readout_error": 0.009521,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 18,
+          "phi": 0.829765,
+          "t1_us": 105.04,
+          "t2_us": 87.42,
+          "t2_t1": 0.8323,
+          "fidelity": 0.999537,
+          "readout_error": 0.017334,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 19,
+          "phi": 0.397586,
+          "t1_us": 153.4,
+          "t2_us": 61.08,
+          "t2_t1": 0.3982,
+          "fidelity": 0.999734,
+          "readout_error": 0.003662,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 20,
+          "phi": 0.998811,
+          "t1_us": 108.98,
+          "t2_us": 141.13,
+          "t2_t1": 1.295,
+          "fidelity": 0.99968,
+          "readout_error": 0.005493,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 21,
+          "phi": 0.68968,
+          "t1_us": 203.08,
+          "t2_us": 140.18,
+          "t2_t1": 0.6903,
+          "fidelity": 0.999843,
+          "readout_error": 0.003906,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 22,
+          "phi": 0.243558,
+          "t1_us": 149.4,
+          "t2_us": 36.48,
+          "t2_t1": 0.2441,
+          "fidelity": 0.999543,
+          "readout_error": 0.003662,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 23,
+          "phi": 0.71203,
+          "t1_us": 239.26,
+          "t2_us": 174.97,
+          "t2_t1": 0.7313,
+          "fidelity": 0.999859,
+          "readout_error": 0.190674,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 24,
+          "phi": 0.532072,
+          "t1_us": 122.03,
+          "t2_us": 65.07,
+          "t2_t1": 0.5332,
+          "fidelity": 0.999595,
+          "readout_error": 0.007446,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 25,
+          "phi": 0.333179,
+          "t1_us": 123.57,
+          "t2_us": 42.02,
+          "t2_t1": 0.34,
+          "fidelity": 0.991174,
+          "readout_error": 0.008667,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 26,
+          "phi": 0.99243,
+          "t1_us": 6.85,
+          "t2_us": 7.29,
+          "t2_t1": 1.0637,
+          "fidelity": 0.998284,
+          "readout_error": 0.041382,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 27,
+          "phi": 0.650661,
+          "t1_us": 182.26,
+          "t2_us": 119.18,
+          "t2_t1": 0.6539,
+          "fidelity": 0.999629,
+          "readout_error": 0.027466,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 28,
+          "phi": 0.566315,
+          "t1_us": 139.71,
+          "t2_us": 79.33,
+          "t2_t1": 0.5678,
+          "fidelity": 0.99969,
+          "readout_error": 0.011719,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 29,
+          "phi": 0.754088,
+          "t1_us": 57.49,
+          "t2_us": 43.76,
+          "t2_t1": 0.7612,
+          "fidelity": 0.999524,
+          "readout_error": 0.064331,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 30,
+          "phi": 0.365689,
+          "t1_us": 293.14,
+          "t2_us": 107.63,
+          "t2_t1": 0.3672,
+          "fidelity": 0.999491,
+          "readout_error": 0.011108,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 31,
+          "phi": 0.192199,
+          "t1_us": 166.98,
+          "t2_us": 32.99,
+          "t2_t1": 0.1976,
+          "fidelity": 0.999757,
+          "readout_error": 0.052979,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 32,
+          "phi": 0.336742,
+          "t1_us": 148.04,
+          "t2_us": 50.07,
+          "t2_t1": 0.3382,
+          "fidelity": 0.999654,
+          "readout_error": 0.012085,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 33,
+          "phi": 0.99872,
+          "t1_us": 138.45,
+          "t2_us": 143.03,
+          "t2_t1": 1.0331,
+          "fidelity": 0.9998,
+          "readout_error": 0.008789,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 34,
+          "phi": 0.98174,
+          "t1_us": 123.62,
+          "t2_us": 121.56,
+          "t2_t1": 0.9833,
+          "fidelity": 0.999522,
+          "readout_error": 0.006592,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 35,
+          "phi": 0.946173,
+          "t1_us": 378.34,
+          "t2_us": 367.23,
+          "t2_t1": 0.9706,
+          "fidelity": 0.999921,
+          "readout_error": 0.243164,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 36,
+          "phi": 0.405977,
+          "t1_us": 171.64,
+          "t2_us": 70.18,
+          "t2_t1": 0.4089,
+          "fidelity": 0.998377,
+          "readout_error": 0.015869,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 37,
+          "phi": 0.168328,
+          "t1_us": 153.52,
+          "t2_us": 26.21,
+          "t2_t1": 0.1707,
+          "fidelity": 0.999512,
+          "readout_error": 0.021973,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 38,
+          "phi": 0.631869,
+          "t1_us": 114.23,
+          "t2_us": 72.33,
+          "t2_t1": 0.6332,
+          "fidelity": 0.999628,
+          "readout_error": 0.008911,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 39,
+          "phi": 0.795077,
+          "t1_us": 152.85,
+          "t2_us": 121.87,
+          "t2_t1": 0.7973,
+          "fidelity": 0.999648,
+          "readout_error": 0.016602,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 40,
+          "phi": 0.137836,
+          "t1_us": 140.48,
+          "t2_us": 25.22,
+          "t2_t1": 0.1796,
+          "fidelity": 0.999798,
+          "readout_error": 0.416504,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 41,
+          "phi": 0.23958,
+          "t1_us": 169.69,
+          "t2_us": 40.95,
+          "t2_t1": 0.2413,
+          "fidelity": 0.999193,
+          "readout_error": 0.013428,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 42,
+          "phi": 0.369419,
+          "t1_us": 289.18,
+          "t2_us": 107.1,
+          "t2_t1": 0.3704,
+          "fidelity": 0.99968,
+          "readout_error": 0.006958,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 43,
+          "phi": 0.430013,
+          "t1_us": 211.66,
+          "t2_us": 91.49,
+          "t2_t1": 0.4323,
+          "fidelity": 0.999784,
+          "readout_error": 0.020508,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 44,
+          "phi": 0.462332,
+          "t1_us": 131.21,
+          "t2_us": 60.84,
+          "t2_t1": 0.4636,
+          "fidelity": 0.999638,
+          "readout_error": 0.009766,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 45,
+          "phi": 0.99679,
+          "t1_us": 85.5,
+          "t2_us": 87.16,
+          "t2_t1": 1.0194,
+          "fidelity": 0.999512,
+          "readout_error": 0.022339,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 46,
+          "phi": 0.693895,
+          "t1_us": 198.76,
+          "t2_us": 138.43,
+          "t2_t1": 0.6965,
+          "fidelity": 0.999573,
+          "readout_error": 0.019653,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 47,
+          "phi": 0.77734,
+          "t1_us": 203.42,
+          "t2_us": 158.41,
+          "t2_t1": 0.7787,
+          "fidelity": 0.999702,
+          "readout_error": 0.009277,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 48,
+          "phi": 0.931099,
+          "t1_us": 160.18,
+          "t2_us": 150.97,
+          "t2_t1": 0.9425,
+          "fidelity": 0.997466,
+          "readout_error": 0.066284,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 49,
+          "phi": 0.54973,
+          "t1_us": 220.58,
+          "t2_us": 121.68,
+          "t2_t1": 0.5517,
+          "fidelity": 0.99914,
+          "readout_error": 0.009888,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 50,
+          "phi": 0.776798,
+          "t1_us": 172.94,
+          "t2_us": 134.8,
+          "t2_t1": 0.7795,
+          "fidelity": 0.999517,
+          "readout_error": 0.019287,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 51,
+          "phi": 0.990825,
+          "t1_us": 217.43,
+          "t2_us": 260.27,
+          "t2_t1": 1.197,
+          "fidelity": 0.999563,
+          "readout_error": 0.083008,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 52,
+          "phi": 0.997147,
+          "t1_us": 146.77,
+          "t2_us": 194.42,
+          "t2_t1": 1.3246,
+          "fidelity": 0.999135,
+          "readout_error": 0.01123,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 53,
+          "phi": 0.99869,
+          "t1_us": 235.76,
+          "t2_us": 304.62,
+          "t2_t1": 1.2921,
+          "fidelity": 0.999833,
+          "readout_error": 0.009766,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 54,
+          "phi": 0.99905,
+          "t1_us": 208.51,
+          "t2_us": 264.06,
+          "t2_t1": 1.2664,
+          "fidelity": 0.999818,
+          "readout_error": 0.005859,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 55,
+          "phi": 0.500455,
+          "t1_us": 120.85,
+          "t2_us": 60.86,
+          "t2_t1": 0.5036,
+          "fidelity": 0.999846,
+          "readout_error": 0.029907,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 56,
+          "phi": 0.378912,
+          "t1_us": 176.58,
+          "t2_us": 67.18,
+          "t2_t1": 0.3804,
+          "fidelity": 0.999672,
+          "readout_error": 0.012695,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 57,
+          "phi": 0.395428,
+          "t1_us": 232.36,
+          "t2_us": 92.51,
+          "t2_t1": 0.3981,
+          "fidelity": 0.9998,
+          "readout_error": 0.025269,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 58,
+          "phi": 0.99692,
+          "t1_us": 219.17,
+          "t2_us": 240.71,
+          "t2_t1": 1.0983,
+          "fidelity": 0.999662,
+          "readout_error": 0.024048,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 59,
+          "phi": 0.997963,
+          "t1_us": 153.74,
+          "t2_us": 163.74,
+          "t2_t1": 1.065,
+          "fidelity": 0.999769,
+          "readout_error": 0.015747,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 60,
+          "phi": 0.994668,
+          "t1_us": 161.18,
+          "t2_us": 220.14,
+          "t2_t1": 1.3658,
+          "fidelity": 0.999684,
+          "readout_error": 0.046997,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 61,
+          "phi": 0.968312,
+          "t1_us": 182.94,
+          "t2_us": 177.55,
+          "t2_t1": 0.9705,
+          "fidelity": 0.999724,
+          "readout_error": 0.016968,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 62,
+          "phi": 0.233605,
+          "t1_us": 143.69,
+          "t2_us": 37.7,
+          "t2_t1": 0.2624,
+          "fidelity": 0.999426,
+          "readout_error": 0.284546,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 63,
+          "phi": 0.85085,
+          "t1_us": 212.49,
+          "t2_us": 186.69,
+          "t2_t1": 0.8786,
+          "fidelity": 0.999827,
+          "readout_error": 0.274414,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 64,
+          "phi": 0.566278,
+          "t1_us": 247.27,
+          "t2_us": 140.4,
+          "t2_t1": 0.5678,
+          "fidelity": 0.999149,
+          "readout_error": 0.005615,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 65,
+          "phi": 0.281059,
+          "t1_us": 270.78,
+          "t2_us": 77.74,
+          "t2_t1": 0.2871,
+          "fidelity": 0.999736,
+          "readout_error": 0.05896,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 66,
+          "phi": 0.736713,
+          "t1_us": 140.49,
+          "t2_us": 103.68,
+          "t2_t1": 0.738,
+          "fidelity": 0.999667,
+          "readout_error": 0.008301,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 67,
+          "phi": 0.18361,
+          "t1_us": 294.53,
+          "t2_us": 55.91,
+          "t2_t1": 0.1898,
+          "fidelity": 0.999666,
+          "readout_error": 0.060791,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 68,
+          "phi": 0.385702,
+          "t1_us": 89.09,
+          "t2_us": 34.54,
+          "t2_t1": 0.3877,
+          "fidelity": 0.999252,
+          "readout_error": 0.014282,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 69,
+          "phi": 0.169927,
+          "t1_us": 138.58,
+          "t2_us": 23.92,
+          "t2_t1": 0.1726,
+          "fidelity": 0.999776,
+          "readout_error": 0.026245,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 70,
+          "phi": 0.114545,
+          "t1_us": 173.97,
+          "t2_us": 20.3,
+          "t2_t1": 0.1167,
+          "fidelity": 0.999697,
+          "readout_error": 0.020508,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 71,
+          "phi": 0.240029,
+          "t1_us": 179.89,
+          "t2_us": 43.32,
+          "t2_t1": 0.2408,
+          "fidelity": 0.999762,
+          "readout_error": 0.006714,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 72,
+          "phi": 0.257613,
+          "t1_us": 92.96,
+          "t2_us": 24.07,
+          "t2_t1": 0.2589,
+          "fidelity": 0.999383,
+          "readout_error": 0.010132,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 73,
+          "phi": 0.731906,
+          "t1_us": 222.22,
+          "t2_us": 164.59,
+          "t2_t1": 0.7407,
+          "fidelity": 0.999601,
+          "readout_error": 0.081543,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 74,
+          "phi": 0.084903,
+          "t1_us": 135.85,
+          "t2_us": 11.8,
+          "t2_t1": 0.0869,
+          "fidelity": 0.999738,
+          "readout_error": 0.019409,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 75,
+          "phi": 0.999177,
+          "t1_us": 335.13,
+          "t2_us": 454.55,
+          "t2_t1": 1.3563,
+          "fidelity": 0.999839,
+          "readout_error": 0.005005,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 76,
+          "phi": 0.36188,
+          "t1_us": 128.68,
+          "t2_us": 46.75,
+          "t2_t1": 0.3633,
+          "fidelity": 0.999765,
+          "readout_error": 0.012329,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 77,
+          "phi": 0.44866,
+          "t1_us": 199.21,
+          "t2_us": 89.68,
+          "t2_t1": 0.4502,
+          "fidelity": 0.999686,
+          "readout_error": 0.012451,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 78,
+          "phi": 0.999043,
+          "t1_us": 127.65,
+          "t2_us": 146.95,
+          "t2_t1": 1.1512,
+          "fidelity": 0.999772,
+          "readout_error": 0.005005,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 79,
+          "phi": 0.351184,
+          "t1_us": 80.14,
+          "t2_us": 28.88,
+          "t2_t1": 0.3603,
+          "fidelity": 0.999604,
+          "readout_error": 0.088745,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 80,
+          "phi": 0.115936,
+          "t1_us": 161.84,
+          "t2_us": 18.91,
+          "t2_t1": 0.1169,
+          "fidelity": 0.999567,
+          "readout_error": 0.008179,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 81,
+          "phi": 0.890293,
+          "t1_us": 172.07,
+          "t2_us": 153.97,
+          "t2_t1": 0.8948,
+          "fidelity": 0.998773,
+          "readout_error": 0.023315,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 82,
+          "phi": -0.030078,
+          "t1_us": 6.66,
+          "t2_us": 11.12,
+          "t2_t1": 1.6698,
+          "fidelity": 0.0,
+          "readout_error": 0.300781,
+          "status": "BAD"
+        },
+        {
+          "qubit": 83,
+          "phi": 0.980291,
+          "t1_us": 192.95,
+          "t2_us": 214.57,
+          "t2_t1": 1.1121,
+          "fidelity": 0.999716,
+          "readout_error": 0.191406,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 84,
+          "phi": 0.861373,
+          "t1_us": 165.13,
+          "t2_us": 142.96,
+          "t2_t1": 0.8657,
+          "fidelity": 0.99938,
+          "readout_error": 0.032959,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 85,
+          "phi": 0.537851,
+          "t1_us": 135.77,
+          "t2_us": 73.18,
+          "t2_t1": 0.539,
+          "fidelity": 0.999456,
+          "readout_error": 0.005981,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 86,
+          "phi": 0.191625,
+          "t1_us": 288.79,
+          "t2_us": 55.56,
+          "t2_t1": 0.1924,
+          "fidelity": 0.999506,
+          "readout_error": 0.005859,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 87,
+          "phi": 0.997161,
+          "t1_us": 155.71,
+          "t2_us": 162.88,
+          "t2_t1": 1.0461,
+          "fidelity": 0.999276,
+          "readout_error": 0.013916,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 88,
+          "phi": 0.723793,
+          "t1_us": 286.76,
+          "t2_us": 208.17,
+          "t2_t1": 0.7259,
+          "fidelity": 0.999814,
+          "readout_error": 0.018799,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 89,
+          "phi": 0.998663,
+          "t1_us": 208.8,
+          "t2_us": 241.79,
+          "t2_t1": 1.158,
+          "fidelity": 0.999789,
+          "readout_error": 0.009155,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 90,
+          "phi": 0.995565,
+          "t1_us": 81.78,
+          "t2_us": 88.96,
+          "t2_t1": 1.0877,
+          "fidelity": 0.999199,
+          "readout_error": 0.02832,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 91,
+          "phi": 0.997941,
+          "t1_us": 143.74,
+          "t2_us": 216.78,
+          "t2_t1": 1.5081,
+          "fidelity": 0.999502,
+          "readout_error": 0.01062,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 92,
+          "phi": 0.897343,
+          "t1_us": 324.41,
+          "t2_us": 291.4,
+          "t2_t1": 0.8982,
+          "fidelity": 0.999793,
+          "readout_error": 0.005249,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 93,
+          "phi": 0.905448,
+          "t1_us": 269.94,
+          "t2_us": 244.71,
+          "t2_t1": 0.9065,
+          "fidelity": 0.999808,
+          "readout_error": 0.007446,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 94,
+          "phi": 0.971167,
+          "t1_us": 244.37,
+          "t2_us": 237.53,
+          "t2_t1": 0.972,
+          "fidelity": 0.999835,
+          "readout_error": 0.005371,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 95,
+          "phi": 0.99624,
+          "t1_us": 234.78,
+          "t2_us": 330.55,
+          "t2_t1": 1.4079,
+          "fidelity": 0.998492,
+          "readout_error": 0.007446,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 96,
+          "phi": 0.510839,
+          "t1_us": 136.04,
+          "t2_us": 70.21,
+          "t2_t1": 0.5161,
+          "fidelity": 0.999501,
+          "readout_error": 0.047241,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 97,
+          "phi": 0.465044,
+          "t1_us": 233.24,
+          "t2_us": 108.71,
+          "t2_t1": 0.4661,
+          "fidelity": 0.999615,
+          "readout_error": 0.006592,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 98,
+          "phi": 0.154946,
+          "t1_us": 256.94,
+          "t2_us": 39.97,
+          "t2_t1": 0.1556,
+          "fidelity": 0.999859,
+          "readout_error": 0.005859,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 99,
+          "phi": 0.226603,
+          "t1_us": 135.96,
+          "t2_us": 31.11,
+          "t2_t1": 0.2288,
+          "fidelity": 0.999756,
+          "readout_error": 0.020752,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 100,
+          "phi": 0.886403,
+          "t1_us": 76.51,
+          "t2_us": 68.46,
+          "t2_t1": 0.8948,
+          "fidelity": 0.995819,
+          "readout_error": 0.009644,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 101,
+          "phi": 0.386438,
+          "t1_us": 186.55,
+          "t2_us": 74.71,
+          "t2_t1": 0.4005,
+          "fidelity": 0.999485,
+          "readout_error": 0.13623,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 102,
+          "phi": 0.701826,
+          "t1_us": 88.63,
+          "t2_us": 62.55,
+          "t2_t1": 0.7057,
+          "fidelity": 0.999332,
+          "readout_error": 0.029541,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 103,
+          "phi": 0.462417,
+          "t1_us": 118.37,
+          "t2_us": 54.97,
+          "t2_t1": 0.4644,
+          "fidelity": 0.99963,
+          "readout_error": 0.015991,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 104,
+          "phi": 0.19407,
+          "t1_us": 243.48,
+          "t2_us": 47.51,
+          "t2_t1": 0.1951,
+          "fidelity": 0.999712,
+          "readout_error": 0.009644,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 105,
+          "phi": 0.69155,
+          "t1_us": 149.19,
+          "t2_us": 103.37,
+          "t2_t1": 0.6928,
+          "fidelity": 0.999749,
+          "readout_error": 0.009399,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 106,
+          "phi": 0.718669,
+          "t1_us": 273.25,
+          "t2_us": 198.17,
+          "t2_t1": 0.7252,
+          "fidelity": 0.999797,
+          "readout_error": 0.062744,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 107,
+          "phi": 0.752334,
+          "t1_us": 214.48,
+          "t2_us": 161.57,
+          "t2_t1": 0.7533,
+          "fidelity": 0.999792,
+          "readout_error": 0.006592,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 108,
+          "phi": 0.995155,
+          "t1_us": 29.18,
+          "t2_us": 42.08,
+          "t2_t1": 1.4423,
+          "fidelity": 0.999171,
+          "readout_error": 0.03186,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 109,
+          "phi": 0.557908,
+          "t1_us": 186.67,
+          "t2_us": 104.4,
+          "t2_t1": 0.5593,
+          "fidelity": 0.999805,
+          "readout_error": 0.011597,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 110,
+          "phi": 0.869171,
+          "t1_us": 335.64,
+          "t2_us": 292.93,
+          "t2_t1": 0.8728,
+          "fidelity": 0.999688,
+          "readout_error": 0.030518,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 111,
+          "phi": 0.30614,
+          "t1_us": 134.12,
+          "t2_us": 41.22,
+          "t2_t1": 0.3073,
+          "fidelity": 0.999703,
+          "readout_error": 0.010132,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 112,
+          "phi": 0.704295,
+          "t1_us": 247.83,
+          "t2_us": 174.99,
+          "t2_t1": 0.7061,
+          "fidelity": 0.999567,
+          "readout_error": 0.011719,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 113,
+          "phi": -0.029102,
+          "t1_us": 160.4,
+          "t2_us": 121.11,
+          "t2_t1": 0.755,
+          "fidelity": 0.0,
+          "readout_error": 0.291016,
+          "status": "BAD"
+        },
+        {
+          "qubit": 114,
+          "phi": 0.999103,
+          "t1_us": 226.9,
+          "t2_us": 252.72,
+          "t2_t1": 1.1138,
+          "fidelity": 0.999759,
+          "readout_error": 0.00415,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 115,
+          "phi": 0.38601,
+          "t1_us": 180.36,
+          "t2_us": 69.87,
+          "t2_t1": 0.3874,
+          "fidelity": 0.999848,
+          "readout_error": 0.012817,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 116,
+          "phi": 0.996503,
+          "t1_us": 77.34,
+          "t2_us": 99.47,
+          "t2_t1": 1.286,
+          "fidelity": 0.99921,
+          "readout_error": 0.019165,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 117,
+          "phi": 0.064943,
+          "t1_us": 167.5,
+          "t2_us": 11.19,
+          "t2_t1": 0.0668,
+          "fidelity": 0.999444,
+          "readout_error": 0.017944,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 118,
+          "phi": 0.400517,
+          "t1_us": 171.21,
+          "t2_us": 68.74,
+          "t2_t1": 0.4015,
+          "fidelity": 0.999788,
+          "readout_error": 0.007935,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 119,
+          "phi": -0.021204,
+          "t1_us": 173.77,
+          "t2_us": 75.63,
+          "t2_t1": 0.4352,
+          "fidelity": 0.0,
+          "readout_error": 0.212036,
+          "status": "BAD"
+        },
+        {
+          "qubit": 120,
+          "phi": 0.316176,
+          "t1_us": 209.31,
+          "t2_us": 66.43,
+          "t2_t1": 0.3174,
+          "fidelity": 0.999697,
+          "readout_error": 0.010132,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 121,
+          "phi": 0.996677,
+          "t1_us": 88.08,
+          "t2_us": 135.43,
+          "t2_t1": 1.5375,
+          "fidelity": 0.999651,
+          "readout_error": 0.026245,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 122,
+          "phi": 0.104973,
+          "t1_us": 263.02,
+          "t2_us": 27.83,
+          "t2_t1": 0.1058,
+          "fidelity": 0.999599,
+          "readout_error": 0.007446,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 123,
+          "phi": 0.493881,
+          "t1_us": 171.23,
+          "t2_us": 85.05,
+          "t2_t1": 0.4967,
+          "fidelity": 0.999542,
+          "readout_error": 0.023438,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 124,
+          "phi": 0.998098,
+          "t1_us": 131.13,
+          "t2_us": 135.87,
+          "t2_t1": 1.0361,
+          "fidelity": 0.99958,
+          "readout_error": 0.01062,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 125,
+          "phi": 0.336447,
+          "t1_us": 162.02,
+          "t2_us": 54.73,
+          "t2_t1": 0.3378,
+          "fidelity": 0.999537,
+          "readout_error": 0.010132,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 126,
+          "phi": 0.099457,
+          "t1_us": 145.12,
+          "t2_us": 14.55,
+          "t2_t1": 0.1002,
+          "fidelity": 0.999472,
+          "readout_error": 0.006836,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 127,
+          "phi": 0.077949,
+          "t1_us": 223.92,
+          "t2_us": 17.96,
+          "t2_t1": 0.0802,
+          "fidelity": 0.999711,
+          "readout_error": 0.022217,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 128,
+          "phi": 0.997759,
+          "t1_us": 298.17,
+          "t2_us": 309.8,
+          "t2_t1": 1.039,
+          "fidelity": 0.999752,
+          "readout_error": 0.017456,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 129,
+          "phi": 0.55465,
+          "t1_us": 147.55,
+          "t2_us": 82.05,
+          "t2_t1": 0.5561,
+          "fidelity": 0.99946,
+          "readout_error": 0.008179,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 130,
+          "phi": 0.095236,
+          "t1_us": 209.47,
+          "t2_us": 25.79,
+          "t2_t1": 0.1231,
+          "fidelity": 0.999745,
+          "readout_error": 0.278198,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 131,
+          "phi": 0.722739,
+          "t1_us": 314.32,
+          "t2_us": 227.47,
+          "t2_t1": 0.7237,
+          "fidelity": 0.999828,
+          "readout_error": 0.006958,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 132,
+          "phi": 0.258921,
+          "t1_us": 334.42,
+          "t2_us": 87.12,
+          "t2_t1": 0.2605,
+          "fidelity": 0.99976,
+          "readout_error": 0.014526,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 133,
+          "phi": 0.805826,
+          "t1_us": 180.5,
+          "t2_us": 146.16,
+          "t2_t1": 0.8097,
+          "fidelity": 0.999555,
+          "readout_error": 0.031738,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 134,
+          "phi": 0.446469,
+          "t1_us": 352.06,
+          "t2_us": 157.57,
+          "t2_t1": 0.4476,
+          "fidelity": 0.999377,
+          "readout_error": 0.005371,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 135,
+          "phi": 0.244641,
+          "t1_us": 346.11,
+          "t2_us": 86.99,
+          "t2_t1": 0.2513,
+          "fidelity": 0.999771,
+          "readout_error": 0.065796,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 136,
+          "phi": 0.736463,
+          "t1_us": 196.65,
+          "t2_us": 145.08,
+          "t2_t1": 0.7378,
+          "fidelity": 0.999565,
+          "readout_error": 0.006592,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 137,
+          "phi": 0.251597,
+          "t1_us": 155.35,
+          "t2_us": 39.26,
+          "t2_t1": 0.2527,
+          "fidelity": 0.999151,
+          "readout_error": 0.00708,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 138,
+          "phi": 0.882757,
+          "t1_us": 272.8,
+          "t2_us": 241.25,
+          "t2_t1": 0.8844,
+          "fidelity": 0.999779,
+          "readout_error": 0.012085,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 139,
+          "phi": 0.999178,
+          "t1_us": 155.89,
+          "t2_us": 184.63,
+          "t2_t1": 1.1844,
+          "fidelity": 0.99979,
+          "readout_error": 0.004028,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 140,
+          "phi": 0.151417,
+          "t1_us": 301.18,
+          "t2_us": 45.92,
+          "t2_t1": 0.1525,
+          "fidelity": 0.999667,
+          "readout_error": 0.009644,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 141,
+          "phi": 0.818011,
+          "t1_us": 370.48,
+          "t2_us": 303.68,
+          "t2_t1": 0.8197,
+          "fidelity": 0.999604,
+          "readout_error": 0.010376,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 142,
+          "phi": 0.996769,
+          "t1_us": 184.31,
+          "t2_us": 231.6,
+          "t2_t1": 1.2566,
+          "fidelity": 0.999807,
+          "readout_error": 0.028442,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 143,
+          "phi": 0.585012,
+          "t1_us": 61.16,
+          "t2_us": 35.84,
+          "t2_t1": 0.586,
+          "fidelity": 0.999563,
+          "readout_error": 0.004517,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 144,
+          "phi": 0.508855,
+          "t1_us": 93.82,
+          "t2_us": 47.89,
+          "t2_t1": 0.5104,
+          "fidelity": 0.999534,
+          "readout_error": 0.010864,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 145,
+          "phi": 0.99181,
+          "t1_us": 136.96,
+          "t2_us": 154.56,
+          "t2_t1": 1.1285,
+          "fidelity": 0.999506,
+          "readout_error": 0.072021,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 146,
+          "phi": 0.338662,
+          "t1_us": 158.89,
+          "t2_us": 53.94,
+          "t2_t1": 0.3395,
+          "fidelity": 0.999707,
+          "readout_error": 0.006348,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 147,
+          "phi": 0.192463,
+          "t1_us": 326.45,
+          "t2_us": 63.0,
+          "t2_t1": 0.193,
+          "fidelity": 0.999761,
+          "readout_error": 0.004272,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 148,
+          "phi": 0.510607,
+          "t1_us": 254.59,
+          "t2_us": 130.17,
+          "t2_t1": 0.5113,
+          "fidelity": 0.99982,
+          "readout_error": 0.005005,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 149,
+          "phi": 0.589677,
+          "t1_us": 186.03,
+          "t2_us": 110.0,
+          "t2_t1": 0.5913,
+          "fidelity": 0.999757,
+          "readout_error": 0.013306,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 150,
+          "phi": 0.996125,
+          "t1_us": 147.43,
+          "t2_us": 150.79,
+          "t2_t1": 1.0228,
+          "fidelity": 0.99957,
+          "readout_error": 0.030151,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 151,
+          "phi": 0.294829,
+          "t1_us": 204.79,
+          "t2_us": 60.86,
+          "t2_t1": 0.2972,
+          "fidelity": 0.999571,
+          "readout_error": 0.021118,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 152,
+          "phi": 0.696563,
+          "t1_us": 386.68,
+          "t2_us": 269.88,
+          "t2_t1": 0.698,
+          "fidelity": 0.999703,
+          "readout_error": 0.009766,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 153,
+          "phi": 0.998919,
+          "t1_us": 157.87,
+          "t2_us": 175.85,
+          "t2_t1": 1.1139,
+          "fidelity": 0.999697,
+          "readout_error": 0.004761,
+          "status": "GOOD"
+        },
+        {
+          "qubit": 154,
+          "phi": 0.05413,
+          "t1_us": 373.64,
+          "t2_us": 20.58,
+          "t2_t1": 0.0551,
+          "fidelity": 0.999773,
+          "readout_error": 0.009277,
+          "status": "MARGINAL"
+        },
+        {
+          "qubit": 155,
+          "phi": 0.327706,
+          "t1_us": 438.23,
+          "t2_us": 144.11,
+          "t2_t1": 0.3288,
+          "fidelity": 0.999823,
+          "readout_error": 0.010132,
+          "status": "GOOD"
+        }
+      ]
+    }
+  }
+}
