@@ -78,11 +78,45 @@ python test_quantum_phi_deep_circuit.py
 python test_quantum_phi_threshold_sweep.py
 ```
 
+### GHZ entanglement test
+```bash
+python test_quantum_phi_ghz_entanglement.py
+```
+
+### Bell state test
+```bash
+python test_quantum_phi_bell_states.py
+```
+
+### Stress tests (T-gate and identity)
+```bash
+python test_quantum_phi_random_circuit.py
+```
+
+### Cross-backend validation
+```bash
+python test_quantum_phi_cross_backend.py
+```
+
+## All Tests Summary
+
+| Test | Script | Time | Result |
+|------|--------|------|--------|
+| Single backend | test_quantum_phi.py | ~1 min | r = 0.9458 |
+| All backends | test_quantum_phi_all_backends.py | ~2 min | 445 qubits |
+| Two-qubit gates | test_quantum_phi_2qubit_gates.py | ~2 min | 4.34x |
+| Deep circuit | test_quantum_phi_deep_circuit.py | ~5 min | 25-63x |
+| Threshold sweep | test_quantum_phi_threshold_sweep.py | ~2 min | 0.25 validated |
+| GHZ entanglement | test_quantum_phi_ghz_entanglement.py | ~3 min | 4.42x |
+| Bell states | test_quantum_phi_bell_states.py | ~3 min | Inconclusive |
+| Stress tests | test_quantum_phi_random_circuit.py | ~5 min | 16x-∞ |
+| Cross-backend | test_quantum_phi_cross_backend.py | ~10 min | 2.5x-5.75x |
+
 ## Free Tier Limits
 
 - 10 minutes quantum time per month
 - Access to 3 backends
-- No historical calibration data
+- No historical calibration data via API
 - Queue times vary (usually 1-5 minutes)
 
 ## Troubleshooting
@@ -98,3 +132,11 @@ Free tier has lower priority. Wait or try a different backend.
 ### Token invalid
 
 Regenerate token at https://quantum.ibm.com → Account settings → API keys
+
+### Out of quantum time
+
+Free tier gives 10 min/month. Check usage at https://quantum.ibm.com → Dashboard.
+
+### Circuit execution errors
+
+Some qubits may be temporarily offline. The scripts skip invalid qubits automatically.
