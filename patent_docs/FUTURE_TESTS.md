@@ -10,16 +10,32 @@
 | 1 | Single Qubit Analysis | 445 qubits | r = 0.9458 with T2/T1 | ✓ |
 | 2 | Two-Qubit Gate Analysis | 1004 gates | 4.34x error discrimination | ✓ |
 | 3 | Deep Circuit Execution | 10 qubits × 4 depths | 25-63x error discrimination | ✓ |
-| 4 | Threshold Sensitivity | 445 qubits | 0.25 validated in optimal plateau | ✓ |
-| 5 | GHZ Entanglement | 5 triplets | 4.42x error discrimination | ✓ |
-| 6 | Bell States | 20 pairs | Inconclusive (gate quality varies) | ⚠️ |
-| 7 | Stress Tests (T-gate, Identity) | 10 qubits | 16x-∞ discrimination | ✓ |
-| 8 | Cross-Backend Validation | 3 backends | 2.5x-16x discrimination | ✓ |
-| 9 | Φ-Based Qubit Selection | 60 qubits | 5.99x improvement, 83% error reduction | ✓ |
-| 10 | Error Correction Selection | 30 triplets | 1.22x improvement | ✓ (weak) |
-| 11 | Variational Circuits | 30 pairs | Inconclusive (small effect) | ⚠️ |
+| 4 | Depth Scaling Analysis | 20 qubits × 10 depths | 8-18x discrimination (10-500 gates) | ✓ |
+| 5 | Threshold Sensitivity | 445 qubits | 0.25 validated in optimal plateau | ✓ |
+| 6 | GHZ Entanglement | 5 triplets | 4.42x error discrimination | ✓ |
+| 7 | Bell States | 20 pairs | Inconclusive (gate quality varies) | ⚠️ |
+| 8 | Stress Tests (T-gate, Identity) | 10 qubits | 16x-∞ discrimination | ✓ |
+| 9 | Cross-Backend Validation | 3 backends | 2.5x-16x discrimination | ✓ |
+| 10 | Φ-Based Qubit Selection | 60 qubits | 5.99x improvement, 83% error reduction | ✓ |
+| 11 | Error Correction Selection | 30 triplets | 1.22x improvement | ✓ (weak) |
+| 12 | Variational Circuits | 30 pairs | Inconclusive (small effect) | ⚠️ |
 
-**9/11 tests validate Φ. 1 weak positive. 2 inconclusive (not contradictory).**
+**10/12 tests validate Φ. 1 weak positive. 2 inconclusive (not contradictory).**
+
+---
+
+## TEMPORAL DATA COLLECTION (IN PROGRESS)
+
+**Started:** December 31, 2025  
+**Day 1 Snapshot:** 445 qubits collected from all 3 backends  
+**Location:** `temporal_data/phi_snapshot_20251231_165011.json`
+
+**To continue collection, run daily:**
+```bash
+python experiments/daily_phi_collection.py
+```
+
+**Analysis after 14-30 days will prove PREDICTION, not just correlation.**
 
 ---
 
@@ -45,7 +61,7 @@
 - Minimum 14-30 days of data
 - All 3 backends
 
-**Status:** Requires data collection over time. IBM Quantum free tier does not provide historical data via API. Must collect ourselves.
+**Status:** Data collection STARTED (Day 1: December 31, 2025). Continue daily.
 
 **Why This Matters:** Current tests show correlation. This test proves PREDICTION. This is the difference between "interesting" and "game-changing."
 
@@ -79,6 +95,8 @@
 - r > 0.8 correlation with coherence metrics
 - Same threshold 0.25 discriminates quality
 
+**Status:** Attempted Azure Quantum setup (December 31, 2025). Free tier cannot create quantum workspaces with paid providers (IonQ). Rigetti/Quantinuum free tiers failed due to storage account limitations. Requires paid subscription or alternative access.
+
 **Why This Matters:** Proves universality beyond IBM superconducting qubits. Makes Φ an industry standard, not a platform-specific tool.
 
 ---
@@ -93,9 +111,9 @@
 - Logs predictions and outcomes
 - Dashboard for visualization
 
-**Status:** Can build now with current code.
+**Status:** COMPLETED (December 31, 2025). See `experiments/realtime_monitor.py`
 
-**Why This Matters:** Demonstrates practical commercial utility.
+**Result:** System health 93.7%, identifies all 5 BAD qubits, ready to detect threshold crossings.
 
 ---
 
@@ -123,80 +141,25 @@
 
 | Priority | Test | Effort | Impact | Status |
 |----------|------|--------|--------|--------|
-| 1 | Test A: Temporal Prediction | Medium | **CRITICAL** | Need to start data collection |
-| 2 | Test B: Cross-Platform | High | **CRITICAL** | Need other platform accounts |
-| 3 | Test C: Real-Time Demo | Low | MEDIUM | Can build now |
+| 1 | Test A: Temporal Prediction | Medium | **CRITICAL** | Data collection STARTED |
+| 2 | Test B: Cross-Platform | High | **CRITICAL** | Blocked (need paid accounts) |
+| 3 | Test C: Real-Time Demo | Low | MEDIUM | **COMPLETED** |
 | 4 | Test D: Quantum Sensors | High | MEDIUM | Need partnerships |
 
 ---
 
-## DATA COLLECTION SCRIPT FOR TEMPORAL PREDICTION
+## UTILITY SCRIPTS AVAILABLE
 
-To start Test A, run this daily:
-```python
-# daily_phi_collection.py
-# Run via cron job or manually each day
+### daily_phi_collection.py
+Collects daily Φ snapshots for temporal prediction analysis.
+```bash
+python experiments/daily_phi_collection.py
+```
 
-from datetime import datetime
-import json
-from qiskit_ibm_runtime import QiskitRuntimeService
-
-ALPHA = 0.1
-
-def collect_phi_data():
-    service = QiskitRuntimeService()
-    
-    data = {
-        'date': datetime.now().isoformat(),
-        'backends': {}
-    }
-    
-    for backend_name in ['ibm_fez', 'ibm_torino', 'ibm_marrakesh']:
-        backend = service.backend(backend_name)
-        target = backend.target
-        
-        qubits = []
-        for i in range(backend.num_qubits):
-            try:
-                props = backend.qubit_properties(i)
-                t1, t2 = props.t1, props.t2
-                if t1 is None or t2 is None:
-                    continue
-                
-                sx_props = target['sx'][(i,)]
-                meas_props = target['measure'][(i,)]
-                
-                if sx_props.error is None or meas_props.error is None:
-                    continue
-                
-                fidelity = 1.0 - sx_props.error
-                readout_error = meas_props.error
-                
-                I = (fidelity - 0.50) / 0.50 if fidelity > 0.5 else 0
-                rho = min(t2 / t1, 1.0) if t1 > 0 else 0
-                phi = I * rho - ALPHA * readout_error
-                
-                qubits.append({
-                    'qubit': i,
-                    'phi': phi,
-                    't1': t1,
-                    't2': t2,
-                    'fidelity': fidelity,
-                    'readout_error': readout_error
-                })
-            except:
-                continue
-        
-        data['backends'][backend_name] = qubits
-    
-    filename = f"phi_data_{datetime.now().strftime('%Y%m%d')}.json"
-    with open(filename, 'w') as f:
-        json.dump(data, f, indent=2)
-    
-    print(f"Saved {filename}")
-
-if __name__ == "__main__":
-    collect_phi_data()
+### realtime_monitor.py
+Real-time monitoring dashboard with color-coded status and alerts.
+```bash
+python experiments/realtime_monitor.py
 ```
 
 ---
@@ -208,6 +171,7 @@ if __name__ == "__main__":
 | Φ correlates with coherence | r = 0.9458 across 445 qubits |
 | Φ predicts gate errors | 4.34x discrimination on 1004 gates |
 | Φ predicts circuit errors | 25-63x discrimination |
+| Φ predicts depth scaling | 8-18x discrimination (10-500 gates) |
 | Φ predicts entanglement quality | 4.42x on GHZ states |
 | Threshold 0.25 is optimal | Within 10% of peak discrimination |
 | Dead qubits identified | 5/5 (100%) by Φ < 0 |
@@ -218,25 +182,26 @@ if __name__ == "__main__":
 
 ## WHAT REMAINS TO PROVE
 
-| Gap | Why It Matters |
-|-----|----------------|
-| Temporal prediction | Proves PREDICTION, not just correlation |
-| Cross-platform (IonQ, Rigetti) | Proves UNIVERSALITY |
-| Non-qubit sensors | Extends scope to all quantum sensors |
+| Gap | Why It Matters | Status |
+|-----|----------------|--------|
+| Temporal prediction | Proves PREDICTION, not just correlation | Data collection started |
+| Cross-platform (IonQ, Rigetti) | Proves UNIVERSALITY | Blocked (need paid accounts) |
+| Non-qubit sensors | Extends scope to all quantum sensors | Need partnerships |
 
 ---
 
 ## NOTES
 
-- Test A (Temporal) is most important - start data collection NOW
-- Test B (Cross-Platform) requires accounts on other platforms
-- Test C (Real-Time Demo) can be built immediately with current code
+- Test A (Temporal) is most important - data collection STARTED, continue daily for 14-30 days
+- Test B (Cross-Platform) blocked by Azure free tier limitations - requires paid subscription
+- Test C (Real-Time Demo) COMPLETED - see realtime_monitor.py
+- Depth scaling test COMPLETED - 8-18x discrimination consistent across 10-500 gates
 - Error Correction test completed but weak (1.22x) - may need deeper circuits
 - Variational test inconclusive - VQE/QAOA may need different approach
-- All tests must use REAL DATA ONLY - no synthetic data
+- All tests use REAL DATA ONLY - no synthetic data
 
 ---
 
 *Last Updated: December 31, 2025*
-*Completed: 11 tests (9 validated, 1 weak, 2 inconclusive)*
-*Remaining: 4 high-priority tests*
+*Completed: 12 tests (10 validated, 1 weak, 2 inconclusive)*
+*Remaining: 3 high-priority tests (1 in progress, 1 blocked, 1 needs partnerships)*
