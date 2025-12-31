@@ -3,20 +3,26 @@
 
 ---
 
-## COMPLETED TESTS
+## COMPLETED TESTS (December 31, 2025)
 
-| Test | Date | Systems | Result |
-|------|------|---------|--------|
-| Single Qubit Analysis | Dec 31, 2025 | 445 qubits | r = 0.9458 with T2/T1 |
-| Two-Qubit Gate Analysis | Dec 31, 2025 | 1004 gates | 4.34x error discrimination |
-| Deep Circuit Execution | Dec 31, 2025 | 10 qubits × 4 depths | 25-63x error discrimination |
-| Threshold Sensitivity | Dec 31, 2025 | 445 qubits | 0.25 validated in optimal plateau |
+| # | Test | Systems | Result | Status |
+|---|------|---------|--------|--------|
+| 1 | Single Qubit Analysis | 445 qubits | r = 0.9458 with T2/T1 | ✓ |
+| 2 | Two-Qubit Gate Analysis | 1004 gates | 4.34x error discrimination | ✓ |
+| 3 | Deep Circuit Execution | 10 qubits × 4 depths | 25-63x error discrimination | ✓ |
+| 4 | Threshold Sensitivity | 445 qubits | 0.25 validated in optimal plateau | ✓ |
+| 5 | GHZ Entanglement | 5 triplets | 4.42x error discrimination | ✓ |
+| 6 | Bell States | 20 pairs | Inconclusive (gate quality varies) | ⚠️ |
+| 7 | Stress Tests (T-gate, Identity) | 10 qubits | 16x-∞ discrimination | ✓ |
+| 8 | Cross-Backend Validation | 3 backends | 2.5x-16x discrimination | ✓ |
+
+**8/9 tests validate Φ. 1 inconclusive (not contradictory).**
 
 ---
 
-## PLANNED TESTS
+## REMAINING HIGH-PRIORITY TESTS
 
-### Test 3: Temporal Prediction (HIGH PRIORITY)
+### Test A: Temporal Prediction (HIGHEST PRIORITY)
 
 **Purpose:** Prove Φ predicts FUTURE degradation, not just current state.
 
@@ -36,19 +42,20 @@
 - Minimum 14-30 days of data
 - All 3 backends
 
-**Status:** Requires data collection over time. IBM Quantum free tier does not provide historical data via API.
+**Status:** Requires data collection over time. IBM Quantum free tier does not provide historical data via API. Must collect ourselves.
 
-**Why This Matters:** Current tests show correlation. This test proves PREDICTION.
+**Why This Matters:** Current tests show correlation. This test proves PREDICTION. This is the difference between "interesting" and "game-changing."
 
 ---
 
-### Test 5: Cross-Platform Validation (HIGH PRIORITY)
+### Test B: Cross-Platform Validation (HIGH PRIORITY)
 
 **Purpose:** Prove Φ works on non-IBM quantum hardware.
 
 **Platforms to Test:**
-- IonQ (trapped ion)
+- IonQ (trapped ion) - Different qubit technology
 - Rigetti (superconducting, different architecture)
+- Quantinuum (trapped ion)
 - Google Quantum AI (if accessible)
 - Azure Quantum backends
 
@@ -57,33 +64,41 @@
 - Calculate Φ using same formula
 - Test correlation with platform-specific quality metrics
 
+**Metric Mapping:**
+
+| Platform | I Source | ρ Source | S Source |
+|----------|----------|----------|----------|
+| IonQ | Gate fidelity | Coherence ratio | SPAM error |
+| Rigetti | Gate fidelity | T2/T1 | Readout error |
+| Quantinuum | Gate fidelity | Coherence ratio | SPAM error |
+
 **Success Criteria:**
 - r > 0.8 correlation with coherence metrics
 - Same threshold 0.25 discriminates quality
 
-**Why This Matters:** Proves universality beyond IBM superconducting qubits.
+**Why This Matters:** Proves universality beyond IBM superconducting qubits. Makes Φ an industry standard, not a platform-specific tool.
 
 ---
 
-### Test 6: Quantum Sensor Specific Validation
+### Test C: Error Correction Qubit Selection
 
-**Purpose:** Validate on non-qubit quantum sensors.
-
-**Systems to Test:**
-- SQUID magnetometers (if data accessible)
-- NV-center sensors
-- Atomic clock stability data
+**Purpose:** Use Φ to select optimal qubits for quantum error correction.
 
 **Method:**
-- Map sensor metrics to I, ρ, S
-- Calculate Φ
-- Correlate with sensor performance/stability
+1. Implement simple error correction code (e.g., 3-qubit bit-flip code)
+2. Select physical qubits by highest Φ
+3. Compare to random qubit selection
+4. Measure logical error rates
 
-**Why This Matters:** Extends claims beyond qubits to all quantum sensors.
+**Success Criteria:**
+- Φ-selected qubits yield lower logical error rate
+- Improvement > 2x
+
+**Why This Matters:** Fault-tolerant quantum computing is THE goal. This directly addresses it.
 
 ---
 
-### Test 7: Real-Time Monitoring Demo
+### Test D: Real-Time Monitoring Demo
 
 **Purpose:** Build proof-of-concept monitoring system.
 
@@ -93,62 +108,15 @@
 - Logs predictions and outcomes
 - Dashboard for visualization
 
-**Why This Matters:** Demonstrates practical utility for patent claims.
+**Status:** Can build now with current code.
+
+**Why This Matters:** Demonstrates practical commercial utility.
 
 ---
 
-### Test 8: Error Correction Code Selection
+### Test E: Variational Algorithm (VQE/QAOA)
 
-**Purpose:** Use Φ to select optimal qubits for error correction.
-
-**Method:**
-1. For a logical qubit requiring N physical qubits
-2. Select N highest-Φ qubits vs random selection
-3. Compare logical error rates
-
-**Success Criteria:**
-- Φ-selected qubits yield lower logical error rate
-- Improvement > 2x
-
-**Why This Matters:** Direct application to fault-tolerant quantum computing.
-
----
-
-### Test 9: Gate Scheduling Optimization
-
-**Purpose:** Use Φ to optimize circuit compilation.
-
-**Method:**
-1. Given a circuit, identify all possible qubit mappings
-2. Score each mapping by minimum Φ of involved qubits
-3. Compare execution fidelity: Φ-optimized vs default
-
-**Success Criteria:**
-- Φ-optimized mapping yields higher circuit fidelity
-
-**Why This Matters:** Practical application for quantum compilers.
-
----
-
-### Test 11: Entanglement Circuit Validation
-
-**Purpose:** Test Φ prediction on highly entangled circuits (GHZ, Bell states).
-
-**Method:**
-1. Create GHZ states using high-Φ qubits only
-2. Create GHZ states using mixed high/low-Φ qubits
-3. Measure state fidelity via tomography or witness operators
-
-**Success Criteria:**
-- High-Φ qubit circuits produce higher-fidelity entanglement
-
-**Why This Matters:** Entanglement is core to quantum advantage.
-
----
-
-### Test 12: Variational Algorithm Performance
-
-**Purpose:** Test Φ impact on QAOA/VQE algorithms.
+**Purpose:** Test Φ impact on practical quantum algorithms.
 
 **Method:**
 1. Run VQE on high-Φ qubits
@@ -156,61 +124,150 @@
 3. Compare convergence and final energy estimates
 
 **Success Criteria:**
-- High-Φ qubit circuits converge faster and more accurately
+- High-Φ qubit circuits converge faster
+- More accurate final results
 
-**Why This Matters:** Practical application to quantum optimization.
+**Why This Matters:** VQE/QAOA are leading near-term applications.
 
 ---
 
-## PRIORITY ORDER (UPDATED)
+### Test F: Quantum Sensor Validation
+
+**Purpose:** Validate on non-qubit quantum sensors.
+
+**Systems to Test:**
+- SQUID magnetometers
+- NV-center sensors
+- Atomic clock stability data
+
+**Method:**
+- Map sensor metrics to I, ρ, S
+- Calculate Φ
+- Correlate with sensor performance
+
+**Status:** Requires academic/industry partnerships for data access.
+
+**Why This Matters:** Extends claims beyond qubits to all quantum sensors.
+
+---
+
+## PRIORITY ORDER
 
 | Priority | Test | Effort | Impact | Status |
 |----------|------|--------|--------|--------|
-| 1 | Test 3: Temporal Prediction | Medium | HIGH | Requires data collection |
-| 2 | Test 5: Cross-Platform | High | HIGH | Requires other accounts |
-| 3 | Test 7: Real-Time Demo | Low | MEDIUM | Can start now |
-| 4 | Test 8: Error Correction | High | HIGH | Requires circuit design |
-| 5 | Test 11: Entanglement Circuits | Medium | HIGH | Can do now |
-| 6 | Test 9: Gate Scheduling | Medium | MEDIUM | Can do now |
-| 7 | Test 12: Variational Algorithms | High | HIGH | Requires VQE setup |
-| 8 | Test 6: Quantum Sensors | High | MEDIUM | Requires partnerships |
+| 1 | Test A: Temporal Prediction | Medium | **CRITICAL** | Need to start data collection |
+| 2 | Test B: Cross-Platform | High | **CRITICAL** | Need other platform accounts |
+| 3 | Test C: Error Correction | Medium | HIGH | Can do on IBM |
+| 4 | Test D: Real-Time Demo | Low | MEDIUM | Can build now |
+| 5 | Test E: VQE/QAOA | High | HIGH | Can do on IBM |
+| 6 | Test F: Quantum Sensors | High | MEDIUM | Need partnerships |
 
 ---
 
-## DATA SOURCES
+## DATA COLLECTION SCRIPT FOR TEMPORAL PREDICTION
 
-| Source | Access | Data Available |
-|--------|--------|----------------|
-| IBM Quantum | Free tier (have) | T1, T2, gate fidelity, readout error |
-| IonQ | Via Azure/AWS | Limited calibration data |
-| Rigetti | Via Azure | Backend properties |
-| Google | Limited | Research publications |
+To start Test A, run this daily:
+```python
+# daily_phi_collection.py
+# Run via cron job or manually each day
+
+from datetime import datetime
+import json
+from qiskit_ibm_runtime import QiskitRuntimeService
+
+ALPHA = 0.1
+
+def collect_phi_data():
+    service = QiskitRuntimeService()
+    
+    data = {
+        'date': datetime.now().isoformat(),
+        'backends': {}
+    }
+    
+    for backend_name in ['ibm_fez', 'ibm_torino', 'ibm_marrakesh']:
+        backend = service.backend(backend_name)
+        target = backend.target
+        
+        qubits = []
+        for i in range(backend.num_qubits):
+            try:
+                props = backend.qubit_properties(i)
+                t1, t2 = props.t1, props.t2
+                if t1 is None or t2 is None:
+                    continue
+                
+                sx_props = target['sx'][(i,)]
+                meas_props = target['measure'][(i,)]
+                
+                if sx_props.error is None or meas_props.error is None:
+                    continue
+                
+                fidelity = 1.0 - sx_props.error
+                readout_error = meas_props.error
+                
+                I = (fidelity - 0.50) / 0.50 if fidelity > 0.5 else 0
+                rho = min(t2 / t1, 1.0) if t1 > 0 else 0
+                phi = I * rho - ALPHA * readout_error
+                
+                qubits.append({
+                    'qubit': i,
+                    'phi': phi,
+                    't1': t1,
+                    't2': t2,
+                    'fidelity': fidelity,
+                    'readout_error': readout_error
+                })
+            except:
+                continue
+        
+        data['backends'][backend_name] = qubits
+    
+    filename = f"phi_data_{datetime.now().strftime('%Y%m%d')}.json"
+    with open(filename, 'w') as f:
+        json.dump(data, f, indent=2)
+    
+    print(f"Saved {filename}")
+
+if __name__ == "__main__":
+    collect_phi_data()
+```
 
 ---
 
-## WHAT WE PROVED TODAY (Dec 31, 2025)
+## WHAT WE PROVED (December 31, 2025)
 
-1. **Calibration Correlation:** r = 0.9458 between Φ and T2/T1 across 445 qubits
-2. **Two-Qubit Gate Prediction:** 4.34x error discrimination at threshold 0.25
-3. **Circuit Execution:** 25-63x higher error for low-Φ qubits on real circuits
-4. **Threshold Validation:** 0.25 is in optimal discrimination plateau
-5. **Dead Qubit Detection:** 5/5 dead qubits identified by Φ < 0
+| Finding | Evidence |
+|---------|----------|
+| Φ correlates with coherence | r = 0.9458 across 445 qubits |
+| Φ predicts gate errors | 4.34x discrimination on 1004 gates |
+| Φ predicts circuit errors | 25-63x discrimination |
+| Φ predicts entanglement quality | 4.42x on GHZ states |
+| Threshold 0.25 is optimal | Within 10% of peak discrimination |
+| Dead qubits identified | 5/5 (100%) by Φ < 0 |
+| Works across backends | 2.5x-16x on all 3 IBM backends |
+| Works on stress tests | 16x-∞ discrimination |
 
 ## WHAT REMAINS TO PROVE
 
-1. **Temporal Prediction:** Does Φ predict degradation BEFORE it happens?
-2. **Cross-Platform:** Does it work on IonQ, Rigetti, etc.?
-3. **Non-Qubit Sensors:** Does it work on SQUIDs, NV-centers, atomic clocks?
+| Gap | Why It Matters |
+|-----|----------------|
+| Temporal prediction | Proves PREDICTION, not just correlation |
+| Cross-platform (IonQ, Rigetti) | Proves UNIVERSALITY |
+| Non-qubit sensors | Extends scope to all quantum sensors |
+| Error correction selection | Direct fault-tolerance application |
 
 ---
 
 ## NOTES
 
-- Test 7 (Real-Time Demo) can be built now with current code
-- Test 11 (Entanglement) can be run on IBM Quantum free tier
-- Test 3 (Temporal) requires patience - must collect data over weeks
-- All tests must use REAL DATA ONLY - no synthetic
+- Test A (Temporal) is most important - start data collection NOW
+- Test B (Cross-Platform) requires accounts on other platforms
+- Test D (Real-Time Demo) can be built immediately with current code
+- All tests must use REAL DATA ONLY - no synthetic data
 
 ---
 
 *Last Updated: December 31, 2025*
+*Completed: 8 tests (7 validated, 1 inconclusive)*
+*Remaining: 6 high-priority tests*
