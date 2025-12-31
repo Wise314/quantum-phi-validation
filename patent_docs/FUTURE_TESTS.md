@@ -9,6 +9,8 @@
 |------|------|---------|--------|
 | Single Qubit Analysis | Dec 31, 2025 | 445 qubits | r = 0.9458 with T2/T1 |
 | Two-Qubit Gate Analysis | Dec 31, 2025 | 1004 gates | 4.34x error discrimination |
+| Deep Circuit Execution | Dec 31, 2025 | 10 qubits × 4 depths | 25-63x error discrimination |
+| Threshold Sensitivity | Dec 31, 2025 | 445 qubits | 0.25 validated in optimal plateau |
 
 ---
 
@@ -19,7 +21,7 @@
 **Purpose:** Prove Φ predicts FUTURE degradation, not just current state.
 
 **Method:**
-1. Pull historical calibration data from IBM Quantum (multiple days/weeks)
+1. Collect calibration data daily over 2-4 weeks
 2. Calculate Φ trajectory for each qubit over time
 3. Test: Does Φ dropping below 0.25 precede performance degradation?
 4. Measure: How many hours/days warning does Φ provide?
@@ -30,33 +32,17 @@
 - False negative rate < 5%
 
 **Data Required:**
-- IBM Quantum historical calibration (available via API)
-- Minimum 30 days of data
+- Daily calibration snapshots from IBM Quantum
+- Minimum 14-30 days of data
 - All 3 backends
+
+**Status:** Requires data collection over time. IBM Quantum free tier does not provide historical data via API.
 
 **Why This Matters:** Current tests show correlation. This test proves PREDICTION.
 
 ---
 
-### Test 4: Circuit Execution Validation
-
-**Purpose:** Prove low-Φ qubits cause actual circuit failures.
-
-**Method:**
-1. Identify high-Φ and low-Φ qubits on same backend
-2. Run identical circuits using only high-Φ qubits
-3. Run identical circuits using at least one low-Φ qubit
-4. Compare circuit fidelity
-
-**Success Criteria:**
-- Circuits with low-Φ qubits have measurably worse outcomes
-- Effect size > 2x
-
-**Why This Matters:** Bridges calibration data to actual computation.
-
----
-
-### Test 5: Cross-Platform Validation
+### Test 5: Cross-Platform Validation (HIGH PRIORITY)
 
 **Purpose:** Prove Φ works on non-IBM quantum hardware.
 
@@ -105,6 +91,7 @@
 - Script that continuously monitors IBM Quantum backends
 - Alerts when any qubit crosses Φ < 0.25
 - Logs predictions and outcomes
+- Dashboard for visualization
 
 **Why This Matters:** Demonstrates practical utility for patent claims.
 
@@ -143,35 +130,50 @@
 
 ---
 
-### Test 10: Threshold Sensitivity Analysis
+### Test 11: Entanglement Circuit Validation
 
-**Purpose:** Validate 0.25 is optimal threshold for quantum systems.
+**Purpose:** Test Φ prediction on highly entangled circuits (GHZ, Bell states).
 
 **Method:**
-1. Sweep threshold from 0.1 to 0.5
-2. At each threshold, calculate discrimination power
-3. Confirm 0.25 maximizes separation between good/bad qubits
+1. Create GHZ states using high-Φ qubits only
+2. Create GHZ states using mixed high/low-Φ qubits
+3. Measure state fidelity via tomography or witness operators
 
 **Success Criteria:**
-- 0.25 ± 0.05 is optimal
-- Matches triality relation prediction
+- High-Φ qubit circuits produce higher-fidelity entanglement
 
-**Why This Matters:** Strengthens theoretical foundation.
+**Why This Matters:** Entanglement is core to quantum advantage.
 
 ---
 
-## PRIORITY ORDER
+### Test 12: Variational Algorithm Performance
 
-| Priority | Test | Effort | Impact |
-|----------|------|--------|--------|
-| 1 | Test 3: Temporal Prediction | Medium | HIGH - Proves prediction |
-| 2 | Test 4: Circuit Execution | Medium | HIGH - Practical validation |
-| 3 | Test 5: Cross-Platform | High | HIGH - Proves universality |
-| 4 | Test 7: Real-Time Demo | Low | MEDIUM - Shows utility |
-| 5 | Test 10: Threshold Sensitivity | Low | MEDIUM - Theory validation |
-| 6 | Test 8: Error Correction | High | HIGH - Major application |
-| 7 | Test 9: Gate Scheduling | Medium | MEDIUM - Compiler application |
-| 8 | Test 6: Quantum Sensors | High | MEDIUM - Extends scope |
+**Purpose:** Test Φ impact on QAOA/VQE algorithms.
+
+**Method:**
+1. Run VQE on high-Φ qubits
+2. Run VQE on low-Φ qubits
+3. Compare convergence and final energy estimates
+
+**Success Criteria:**
+- High-Φ qubit circuits converge faster and more accurately
+
+**Why This Matters:** Practical application to quantum optimization.
+
+---
+
+## PRIORITY ORDER (UPDATED)
+
+| Priority | Test | Effort | Impact | Status |
+|----------|------|--------|--------|--------|
+| 1 | Test 3: Temporal Prediction | Medium | HIGH | Requires data collection |
+| 2 | Test 5: Cross-Platform | High | HIGH | Requires other accounts |
+| 3 | Test 7: Real-Time Demo | Low | MEDIUM | Can start now |
+| 4 | Test 8: Error Correction | High | HIGH | Requires circuit design |
+| 5 | Test 11: Entanglement Circuits | Medium | HIGH | Can do now |
+| 6 | Test 9: Gate Scheduling | Medium | MEDIUM | Can do now |
+| 7 | Test 12: Variational Algorithms | High | HIGH | Requires VQE setup |
+| 8 | Test 6: Quantum Sensors | High | MEDIUM | Requires partnerships |
 
 ---
 
@@ -179,18 +181,34 @@
 
 | Source | Access | Data Available |
 |--------|--------|----------------|
-| IBM Quantum | Free tier | T1, T2, gate fidelity, readout error, historical |
+| IBM Quantum | Free tier (have) | T1, T2, gate fidelity, readout error |
 | IonQ | Via Azure/AWS | Limited calibration data |
 | Rigetti | Via Azure | Backend properties |
 | Google | Limited | Research publications |
 
 ---
 
+## WHAT WE PROVED TODAY (Dec 31, 2025)
+
+1. **Calibration Correlation:** r = 0.9458 between Φ and T2/T1 across 445 qubits
+2. **Two-Qubit Gate Prediction:** 4.34x error discrimination at threshold 0.25
+3. **Circuit Execution:** 25-63x higher error for low-Φ qubits on real circuits
+4. **Threshold Validation:** 0.25 is in optimal discrimination plateau
+5. **Dead Qubit Detection:** 5/5 dead qubits identified by Φ < 0
+
+## WHAT REMAINS TO PROVE
+
+1. **Temporal Prediction:** Does Φ predict degradation BEFORE it happens?
+2. **Cross-Platform:** Does it work on IonQ, Rigetti, etc.?
+3. **Non-Qubit Sensors:** Does it work on SQUIDs, NV-centers, atomic clocks?
+
+---
+
 ## NOTES
 
-- Tests 3 and 4 can be done immediately with IBM Quantum free tier
-- Test 5 requires accounts on other platforms
-- Test 6 requires academic/industry partnerships
+- Test 7 (Real-Time Demo) can be built now with current code
+- Test 11 (Entanglement) can be run on IBM Quantum free tier
+- Test 3 (Temporal) requires patience - must collect data over weeks
 - All tests must use REAL DATA ONLY - no synthetic
 
 ---
