@@ -20,6 +20,9 @@ cd ~/Desktop/quantum-phi-validation/Outputs_MD
 | test_quantum_phi_bell_states_output.md | Bell states | ⚠️ Inconclusive |
 | test_quantum_phi_stress_test_output.md | T-gate & identity stress | ✓ |
 | test_quantum_phi_cross_backend_output.md | Cross-backend validation | ✓ |
+| test_quantum_phi_qubit_selection_output.md | Φ-based qubit selection | ✓ |
+| test_quantum_phi_error_correction_output.md | Error correction | ✓ (weak) |
+| test_quantum_phi_variational_output.md | Variational circuits | ⚠️ Inconclusive |
 
 ## Results Summary
 
@@ -34,8 +37,11 @@ cd ~/Desktop/quantum-phi-validation/Outputs_MD
 | Bell states | Inconclusive (gate quality varies) |
 | Stress tests | 16x-∞ higher error for low-Φ |
 | Cross-backend | 2.5x-5.75x on torino/marrakesh |
+| Qubit selection | 5.99x improvement, 83% error reduction |
+| Error correction | 1.22x improvement in logical error |
+| Variational | Inconclusive (small effect size) |
 
-**8/9 tests validate Φ. 1 inconclusive (not contradictory).**
+**9/12 tests validate Φ. 2 inconclusive, 1 weak.**
 
 ## Note
 
