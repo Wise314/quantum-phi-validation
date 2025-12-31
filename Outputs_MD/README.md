@@ -23,6 +23,7 @@ cd ~/Desktop/quantum-phi-validation/Outputs_MD
 | test_quantum_phi_qubit_selection_output.md | Φ-based qubit selection | ✓ |
 | test_quantum_phi_error_correction_output.md | Error correction | ✓ (weak) |
 | test_quantum_phi_variational_output.md | Variational circuits | ⚠️ Inconclusive |
+| test_quantum_phi_depth_scaling_output.md | Depth scaling (10-500 gates) | ✓ |
 
 ## Results Summary
 
@@ -40,8 +41,9 @@ cd ~/Desktop/quantum-phi-validation/Outputs_MD
 | Qubit selection | 5.99x improvement, 83% error reduction |
 | Error correction | 1.22x improvement in logical error |
 | Variational | Inconclusive (small effect size) |
+| Depth scaling | 8-18x discrimination across 10-500 gates |
 
-**9/12 tests validate Φ. 2 inconclusive, 1 weak.**
+**10/13 tests validate Φ. 2 inconclusive, 1 weak.**
 
 ## Note
 
