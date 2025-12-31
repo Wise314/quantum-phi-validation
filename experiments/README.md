@@ -7,7 +7,7 @@ Test scripts for validating Φ on quantum hardware.
 cd ~/Desktop/quantum-phi-validation/experiments
 ```
 
-## Tests
+## Tests (10 Total)
 
 ### test_quantum_phi.py
 
@@ -63,13 +63,55 @@ python test_quantum_phi_threshold_sweep.py
 
 **Key Result:** Threshold 0.25 in optimal plateau (4.26x discrimination)
 
+### test_quantum_phi_ghz_entanglement.py
+
+GHZ state (3-qubit entanglement) validation.
+```bash
+python test_quantum_phi_ghz_entanglement.py
+```
+
+**Key Result:** LOW-Φ triplets have 4.42x higher entanglement error
+
+### test_quantum_phi_bell_states.py
+
+Bell state (2-qubit entanglement) validation.
+```bash
+python test_quantum_phi_bell_states.py
+```
+
+**Key Result:** Inconclusive (gate quality varies independently of qubit Φ)
+
+### test_quantum_phi_random_circuit.py
+
+Stress tests with T-gates and heavy identity circuits.
+```bash
+python test_quantum_phi_random_circuit.py
+```
+
+**Key Result:** LOW-Φ has 16x-∞ higher error on stress tests
+
+### test_quantum_phi_cross_backend.py
+
+Cross-backend validation on ibm_torino and ibm_marrakesh.
+```bash
+python test_quantum_phi_cross_backend.py
+```
+
+**Key Result:** Φ validated on all backends (2.5x-5.75x discrimination)
+
 ## Results Summary
 
-| Test | Finding |
-|------|---------|
-| Single qubit | 156 qubits, 1 dead identified |
-| All backends | r = 0.9458 correlation with T2/T1 |
-| Two-qubit gates | 4.34x higher error when min_Φ < 0.25 |
-| Simple circuit | Inconclusive (single gate too fast) |
-| Deep circuit | 25-63x higher error for low-Φ qubits |
-| Threshold sweep | 0.25 validated in optimal plateau |
+| Test | Finding | Status |
+|------|---------|--------|
+| Single qubit | 156 qubits, 1 dead identified | ✓ |
+| All backends | r = 0.9458 correlation with T2/T1 | ✓ |
+| Two-qubit gates | 4.34x higher error when min_Φ < 0.25 | ✓ |
+| Simple circuit | Inconclusive (single gate too fast) | ⚠️ |
+| Deep circuit | 25-63x higher error for low-Φ qubits | ✓ |
+| Threshold sweep | 0.25 validated in optimal plateau | ✓ |
+| GHZ entanglement | 4.42x higher error for low-Φ triplets | ✓ |
+| Bell states | Inconclusive (gate quality varies) | ⚠️ |
+| Stress tests | 16x-∞ higher error for low-Φ | ✓ |
+| Cross-backend | 2.5x-5.75x on torino/marrakesh | ✓ |
+
+**8/10 tests validate Φ. 2 inconclusive (not contradictory).**
