@@ -7,7 +7,7 @@ Test scripts for validating Φ on quantum hardware.
 cd ~/Desktop/quantum-phi-validation/experiments
 ```
 
-## Tests (10 Total)
+## Tests (13 Total)
 
 ### test_quantum_phi.py
 
@@ -99,6 +99,33 @@ python test_quantum_phi_cross_backend.py
 
 **Key Result:** Φ validated on all backends (2.5x-5.75x discrimination)
 
+### test_quantum_phi_qubit_selection.py
+
+Φ-based qubit selection vs random selection. Core compiler optimization test.
+```bash
+python test_quantum_phi_qubit_selection.py
+```
+
+**Key Result:** 5.99x improvement, 83% error reduction, beats random by 74%
+
+### test_quantum_phi_error_correction.py
+
+Error correction qubit selection using 3-qubit bit-flip code.
+```bash
+python test_quantum_phi_error_correction.py
+```
+
+**Key Result:** 1.22x improvement in logical error rate (weak but positive)
+
+### test_quantum_phi_variational.py
+
+Variational circuit (VQE-style) performance testing.
+```bash
+python test_quantum_phi_variational.py
+```
+
+**Key Result:** Inconclusive (small effect size, noisy metric)
+
 ## Results Summary
 
 | Test | Finding | Status |
@@ -113,5 +140,8 @@ python test_quantum_phi_cross_backend.py
 | Bell states | Inconclusive (gate quality varies) | ⚠️ |
 | Stress tests | 16x-∞ higher error for low-Φ | ✓ |
 | Cross-backend | 2.5x-5.75x on torino/marrakesh | ✓ |
+| Qubit selection | 5.99x improvement, 83% error reduction | ✓ |
+| Error correction | 1.22x improvement in logical error | ✓ (weak) |
+| Variational | Inconclusive (small effect) | ⚠️ |
 
-**8/10 tests validate Φ. 2 inconclusive (not contradictory).**
+**9/13 tests validate Φ. 1 weak positive. 3 inconclusive (not contradictory).**
