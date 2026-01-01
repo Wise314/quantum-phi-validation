@@ -482,3 +482,68 @@ All 5 qubits with Φ < 0 had fidelity = 0.0000 (completely failed).
 *Last Updated: December 31, 2025*
 *Tests Completed: 12 (10 validated, 1 weak, 2 inconclusive)*
 *Claims: 32 (8 independent, 24 dependent)*
+
+---
+
+## FUTURE PATENT STRATEGY: ML-ENHANCED Φ
+
+### Why This Is Patentable Separately
+
+| Patent #9 (Current) | Future ML Patents |
+|---------------------|-------------------|
+| Fixed threshold 0.25 | Φ time series as input |
+| Classification: GOOD/MARGINAL/BAD | Regression: time-to-failure |
+| Instantaneous decision | Temporal prediction |
+| Zero training | Trained model |
+
+**Analogy:** Thermometer vs Weather Forecasting System
+
+### Patent Thicket Strategy
+```
+Patent #9:  Φ for quantum (instant classification) ← FILE NOW
+Patent #13: Φ + ML for quantum (predictive calibration) ← After temporal data
+Patent #16: Φ + ML UNIVERSAL (all domains) ← Crown jewel
+```
+
+### Training Data Available
+
+| Domain | Dataset |
+|--------|---------|
+| Bearings | PRONOSTIA |
+| Turbofans | C-MAPSS |
+| Power grids | UK blackout data |
+| Earthquakes | USGS historical |
+| Neural networks | 660 architecture runs |
+| Quantum | Temporal collection (started Dec 31, 2025) |
+
+### Universal Prognostic Patent (Future #16)
+
+**Title:** "Method for Universal Prognostic Prediction Using Time-Series Stability Metric"
+
+**Core Claims:**
+- Computing Φ at multiple time points
+- Inputting Φ time series into trained model
+- Outputting predicted time-to-failure
+- Single model works across ALL domains
+
+### Market Potential
+
+| Market | Size by 2030 |
+|--------|--------------|
+| Predictive maintenance | $28B |
+| Quantum computing | $65B |
+| Grid infrastructure | $50B+ |
+| AI/ML optimization | $100B+ |
+
+**One trained model. Every domain. That's not a company — that's an industry.**
+
+### Timeline
+
+1. [x] File Patent #9 (quantum instant classification)
+2. [ ] Collect 14-30 days temporal data (started Dec 31, 2025)
+3. [ ] File Patent #13 (quantum predictive)
+4. [ ] File Patent #16 (universal prognostic) - references ALL prior patents
+
+---
+
+*Future Strategy Added: January 1, 2026*
