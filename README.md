@@ -2,6 +2,12 @@
 
 Validation of the Universal Φ Framework on IBM Quantum Hardware.
 
+**Repository:** quantum-phi-validation  
+**Patent:** METHOD AND SYSTEM FOR QUANTUM SENSOR STABILITY MONITORING USING UNIVERSAL THERMODYNAMIC IDENTITY FRAMEWORK  
+**Application #:** 63/952,883  
+**Filed:** January 2, 2026  
+**Status:** Patent Pending
+
 ## Results Summary
 
 | Test | Systems | Key Finding | Status |
@@ -170,4 +176,5 @@ Same Φ formula and threshold 0.25 validated across:
 
 ## License
 
-Proprietary - Patent Pending (Patent #9 in Universal Φ Portfolio)
+Proprietary - USPTO Application #63/952,883 (Patent #9 in Universal Φ Portfolio)  
+Filed: January 2, 2026
