@@ -475,3 +475,51 @@ This single claim structure covers:
 **VERY HIGH** — File after consulting patent attorney on claim scope.
 
 *Added: January 2, 2026*
+
+---
+
+## Patent #9: Five Inventions in One Filing
+
+**Date Added:** January 2, 2026
+
+### What We Accomplished
+
+Patent #9 (Application #63/952,883) contains **44 claims** that cover **5 separate inventions** for a single $65 filing fee.
+
+### Claim-to-Invention Mapping
+
+| Invention | Claim | Test Evidence | Result |
+|-----------|-------|---------------|--------|
+| **Core Quantum Φ** | Claims 1-4, 9-44 | `test_quantum_phi_all_backends.py` | r = 0.9458 correlation |
+| **Compiler Optimization** | Claim 5 | `test_quantum_phi_qubit_selection.py` | 5.99x improvement, 83% error reduction |
+| **Entanglement Path Selection** | Claim 6 | `test_quantum_phi_ghz_entanglement.py` | 4.42x error discrimination |
+| **Error Correction Selection** | Claim 7 | `test_quantum_phi_error_correction.py` | 1.22x improvement |
+| **Cross-Platform Benchmarking** | Claim 8 | `test_quantum_phi_cross_backend.py` | 2.5x-16x discrimination on 3 backends |
+
+### Cost Analysis
+
+| Approach | Cost |
+|----------|------|
+| Filing 5 separate patents | $325 ($65 × 5) |
+| **What we did: 1 patent, 44 claims** | **$65** |
+| **Savings** | **$260** |
+
+### Why This Works
+
+Provisional patents don't limit the number of claims. We structured Patent #9 to include:
+- 3 independent claims (method, system, computer-readable medium)
+- 41 dependent claims covering all applications and embodiments
+
+Each dependent claim is a separate piece of intellectual property you own.
+
+### Evidence Location
+
+All test outputs are in the repo:
+- `Outputs_MD/test_quantum_phi_qubit_selection_output.md` → Claim 5
+- `Outputs_MD/test_quantum_phi_ghz_output.md` → Claim 6
+- `Outputs_MD/test_quantum_phi_error_correction_output.md` → Claim 7
+- `Outputs_MD/test_quantum_phi_cross_backend_output.md` → Claim 8
+
+**All data from real IBM Quantum hardware. No synthetic data.**
+
+*Added: January 2, 2026*
