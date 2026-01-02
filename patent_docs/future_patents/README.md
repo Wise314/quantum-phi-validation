@@ -410,3 +410,68 @@ The following future patents are now **included in Patent #9's claims**:
 | #13 | Predictive | Pending | ~Late Jan 2026 |
 
 *Updated: January 2, 2026*
+
+---
+
+## Patent #16: Universal ML Enhancement — Strategic Value
+
+**Date Added:** January 2, 2026
+
+### Why Patent #16 Matters
+
+Patent #16 is NOT a replacement for Patents #1-15. It's a **second tollbooth**.
+
+### Two Tollbooths Model
+
+| Layer | What It Covers | Patents |
+|-------|----------------|---------|
+| **Layer 1** | Computing Φ itself | #1-9 (domain-specific) |
+| **Layer 2** | Using Φ in ML systems | #16 (universal) |
+
+### Licensing Scenarios
+
+**Person A: Uses just Φ formula (no ML)**
+- Needs license for base patent (#9 for quantum, #8 for neural nets, etc.)
+- Does NOT need #16
+
+**Person B: Builds ML on top of Φ**
+- Needs BOTH:
+  1. License for base patent (to compute Φ)
+  2. License for #16 (to feed Φ into ML)
+
+**Person C: Tries to reverse-engineer Φ and use ML**
+- Still infringes base patent (computing Φ)
+- Still infringes #16 (using stability metric in ML)
+
+### Why #16 Doesn't Replace The Others
+
+#16 covers the **ML layer**, not the **formula**.
+
+If you only had #16, someone could use Φ directly (no ML) without licensing.
+
+With BOTH:
+- Raw Φ users → pay for base patent
+- ML-enhanced Φ users → pay for BOTH
+
+### Commercial Implication
+
+**Two tollbooths. Double the licensing revenue.**
+
+Anyone building commercial products on Φ will almost certainly use ML for optimization, prediction, or automation. That means they need both licenses.
+
+### Patent #16 Claim Concept
+
+> "A machine learning system comprising: obtaining one or more training-free stability metrics computed from physical measurements; inputting said metrics as features to a trained model; and generating predictions, classifications, or control signals based on said trained model output."
+
+This single claim structure covers:
+- ML-enhanced qubit selection
+- ML-enhanced bearing failure prediction
+- ML-enhanced grid monitoring
+- ML-enhanced neural network training supervision
+- Any future domain where Φ is computed and fed to ML
+
+### Priority
+
+**VERY HIGH** — File after consulting patent attorney on claim scope.
+
+*Added: January 2, 2026*
