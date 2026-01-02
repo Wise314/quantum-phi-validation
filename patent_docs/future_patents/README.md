@@ -309,5 +309,55 @@ All test outputs are stored in:
 
 ---
 
+---
+
+## Strategic Insight: Universal ML Enhancement Patent
+
+**Date Discussed:** January 2, 2026
+
+### The Core Realization
+
+All patents in this portfolio (Patents #1-15) are **training-free**. The Φ formula and all derived methods work without machine learning. This is a feature, not a limitation.
+
+However, this creates a strategic opportunity: **one universal patent covering ML-enhanced versions of all training-free methods.**
+
+### The Concept
+
+Instead of filing separate ML-enhanced patents for each application:
+- ML-enhanced Task-Identity
+- ML-enhanced Neural Phase Transition
+- ML-enhanced Qubit Selection
+- etc.
+
+File **one patent** that covers:
+
+> "Machine learning systems that optimize decision-making using training-free stability metrics (Φ or derived metrics) as input features."
+
+### Why This Works
+
+1. **The formula stays training-free** — the physics is pure
+2. **The decision layer gets trained** — learns optimal thresholds, alert timing, sensor fusion, domain-specific tuning
+3. **One patent protects all applications** — anyone building ML on top of your metrics needs a license
+
+### Analogy
+
+GPS coordinates require no training. But navigation apps train ML models on top of GPS data to predict traffic and suggest routes. The underlying measurement is pure; the intelligence layer learns.
+
+### Commercial Implications
+
+Anyone who wants to build intelligence on top of your training-free methods needs **two licenses**:
+1. License for the base training-free method
+2. License for the ML enhancement layer
+
+### Action Required
+
+- [ ] Consult patent attorney on claim scope
+- [ ] Determine if claim is too broad or defensible
+- [ ] Decide: file as separate patent or add claims to existing provisionals
+
+### Priority
+
+HIGH — This could double portfolio value with a single filing.
+
 *Last Updated: January 1, 2026*
 *Status: 3 patents ready, 1 in progress, 1 blocked, 1 needs theory*
