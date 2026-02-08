@@ -139,7 +139,6 @@ Real calibration data and circuit execution from IBM Quantum:
 ├── startup/        # Setup scripts and IBM Quantum configuration
 ├── experiments/    # Test scripts (14 tests + 2 utilities)
 ├── results/        # Output data and analysis
-├── patent_docs/    # Patent documentation + future patents
 ├── temporal_data/  # Daily Φ snapshots for prediction test
 ├── Outputs_MD/     # Raw terminal outputs (ground truth)
 └── requirements.txt
