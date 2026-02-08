@@ -177,3 +177,10 @@ Same Φ formula and threshold 0.25 validated across:
 
 Proprietary - USPTO Application #63/952,883 (Patent #9 in Universal Φ Portfolio)  
 Filed: January 2, 2026
+
+## Contact
+Shawn Barnicle — Independent Researcher
+- Website: shunyatacafe.com
+- Email: ShawnBarnicle.ai@gmail.com
+- Email: ShawnBarnicle@proton.me
+- LinkedIn: linkedin.com/in/shawn-barnicle-811887390
