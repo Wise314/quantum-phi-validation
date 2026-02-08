@@ -10,6 +10,8 @@ Validation of the Universal Φ Framework on IBM Quantum Hardware.
 
 **Paper:** [Thermodynamic Stability Metric Provides Early Warning of Qubit Degradation on IBM Quantum Hardware](https://doi.org/10.5281/zenodo.18522745)
 
+**Paper 2:** [A Stability Index for Cross-Domain Degradation Detection](https://doi.org/10.5281/zenodo.18523292)
+
 ## Results Summary
 
 | Test | Systems | Key Finding | Status |
