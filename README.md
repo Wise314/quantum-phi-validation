@@ -163,11 +163,10 @@ Same Φ formula and threshold 0.25 validated across:
 | Neural Networks | 660 architectures | 99.7% precision |
 | **Quantum** | **445 qubits, 1004 gates, 3 backends** | **r = 0.9458, 8-83% discrimination** |
 
-## What This Means
+## Significance
 
-**One formula. Zero training. Works everywhere.**
+**One formula. Zero training. Cross-domain validation.**
 
-- IBM/Google/IonQ spend hundreds of millions on proprietary ML calibration systems
 - Φ achieves comparable discrimination with a single physics-derived formula
 - Same threshold (0.25) works on bearings AND qubits
 - No retraining needed for new hardware
