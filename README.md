@@ -21,7 +21,7 @@ Validation of the Universal Φ Framework on IBM Quantum Hardware.
 
 **Hardware-agnostic — works on any backend without recalibration.** Validated on ibm_fez, ibm_torino, and ibm_marrakesh with no changes. New hardware tomorrow? Same formula, same threshold.
 
-**Cross-domain proven.** The same formula and same 0.25 threshold that flags bad qubits also flagged failing bearings, identified the conditions behind a UK power blackout, and worked across 660 neural network architectures. No other metric does this.
+**Cross-domain proven.** The same formula and same 0.25 threshold that flags bad qubits also flagged failing bearings, degrading turbofan engines, and worked across 660 neural network architectures. No other metric does this.
 
 **Deterministic and explainable.** You can tell a regulator exactly why a qubit was flagged. ML models can't. For defense, pharma, and finance — where explainability is required — that's a differentiator.
 
