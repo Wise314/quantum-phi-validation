@@ -31,6 +31,8 @@ Validation of the Universal Φ Framework on IBM Quantum Hardware.
 
 **Paper 2:** [A Stability Index for Cross-Domain Degradation Detection](https://doi.org/10.5281/zenodo.18523292)
 
+**Paper 3:** [A Domain-Agnostic Stability Metric and Autonomous Controller](https://doi.org/10.5281/zenodo.18684052)
+
 ## Results Summary
 
 | Test | Systems | Key Finding | Status |

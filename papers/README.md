@@ -49,6 +49,28 @@
 
 ---
 
+## Paper 3: Φ = I × ρ − α × S: A Domain-Agnostic Stability Metric and Autonomous Controller
+
+**DOI:** [10.5281/zenodo.18684052](https://doi.org/10.5281/zenodo.18684052)
+
+**Published:** February 18, 2026
+
+### Key Results
+
+| Metric | Value |
+|--------|-------|
+| Domains validated | 8 (mechanical, aerospace, electrical, geophysical, neural, quantum, cardiac, LLM) |
+| Systems tested | 42 across 9 domains (universal stability engineering) |
+| Classification accuracy | 100% (zero false positives, zero false negatives) |
+| Controller win rate | 65% (13/20 seeds, Phase 2E) |
+| Kill-only precision | 99.7% (2 false kills out of 660+ runs) |
+| Anti-Goodhart safeguards | 3 layers (performance floor, step-wise rejection, correlation monitor) |
+| Provisional patents covered | 14 |
+
+- **PDF:** [Domain_Agnostic_Stability_Metric_and_Autonomous_Controller.pdf](Domain_Agnostic_Stability_Metric_and_Autonomous_Controller.pdf)
+
+---
+
 ## Author
 
 Shawn Barnicle — Independent Researcher
