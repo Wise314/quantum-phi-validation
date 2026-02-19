@@ -145,6 +145,8 @@ Real calibration data and circuit execution from IBM Quantum:
 ├── analysis/       # Detailed results and analysis
 ├── temporal_data/  # Daily Φ snapshots for prediction test
 ├── Outputs_MD/     # Raw terminal outputs (ground truth)
+├── papers/         # Published research papers (Zenodo DOIs)
+├── LICENSE          # Proprietary viewing-only license
 └── requirements.txt
 ```
 
