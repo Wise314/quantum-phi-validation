@@ -142,7 +142,7 @@ Real calibration data and circuit execution from IBM Quantum:
 ├── core/           # Standalone Φ calculation source code
 ├── startup/        # Setup scripts and IBM Quantum configuration
 ├── experiments/    # Test scripts (14 tests + 2 utilities)
-├── results/        # Output data and analysis
+├── analysis/       # Detailed results and analysis
 ├── temporal_data/  # Daily Φ snapshots for prediction test
 ├── Outputs_MD/     # Raw terminal outputs (ground truth)
 └── requirements.txt
