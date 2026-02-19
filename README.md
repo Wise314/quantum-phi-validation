@@ -7,6 +7,7 @@ Validation of the Universal Φ Framework on IBM Quantum Hardware.
 **Application #:** 63/952,883  
 **Filed:** January 2, 2026  
 **Status:** Patent Pending
+**Last Validated:** January 29, 2026
 
 **Paper:** [Thermodynamic Stability Metric Provides Early Warning of Qubit Degradation on IBM Quantum Hardware](https://doi.org/10.5281/zenodo.18522745)
 
@@ -151,6 +152,8 @@ Real calibration data and circuit execution from IBM Quantum:
 ```
 
 ## Quick Start
+
+Requires IBM Quantum credentials — see [startup/README.md](startup/README.md) for setup.
 ```bash
 pip install -r requirements.txt
 cd experiments
@@ -185,7 +188,7 @@ Filed: January 2, 2026
 
 ## Contact
 Shawn Barnicle — Independent Researcher
-- Website: shunyatacafe.com
+- Website: [shunyatacafe.com](https://shunyatacafe.com)
 - Email: ShawnBarnicle.ai@gmail.com
 - Email: ShawnBarnicle@proton.me
-- LinkedIn: linkedin.com/in/shawn-barnicle-811887390
+- LinkedIn: [linkedin.com/in/shawn-barnicle-811887390](https://linkedin.com/in/shawn-barnicle-811887390)
