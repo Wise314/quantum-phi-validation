@@ -21,7 +21,7 @@ Validation of the Universal Φ Framework on IBM Quantum Hardware.
 
 **Hardware-agnostic — works on any backend without recalibration.** Validated on ibm_fez, ibm_torino, and ibm_marrakesh with no changes. New hardware tomorrow? Same formula, same threshold.
 
-**Cross-domain proven.** The same formula and same 0.25 threshold that flags bad qubits also flagged failing bearings, predicted a UK power blackout, and worked across 660 neural network architectures. No other metric does this.
+**Cross-domain proven.** The same formula and same 0.25 threshold that flags bad qubits also flagged failing bearings, identified the conditions behind a UK power blackout, and worked across 660 neural network architectures. No other metric does this.
 
 **Deterministic and explainable.** You can tell a regulator exactly why a qubit was flagged. ML models can't. For defense, pharma, and finance — where explainability is required — that's a differentiator.
 
@@ -65,7 +65,7 @@ Where:
 
 ## Key Findings
 
-- **Same formula** that predicted UK blackout (Φ = 0.178) and Tohoku earthquake (Φ = -0.357)
+- **Same formula** that identified UK blackout (Φ = 0.178) and Tohoku earthquake (Φ = -0.357)
 - **Same threshold (0.25)** validated on bearings, turbofans, grids, 660 neural networks
 - **All 5 dead qubits** correctly identified (Φ < 0, fidelity = 0.000)
 - **Low-Φ qubits** have 4.3x shorter coherence time
@@ -185,7 +185,7 @@ Same Φ formula and threshold 0.25 validated across:
 | Domain | Systems | Result |
 |--------|---------|--------|
 | Mechanical | Bearings, turbofans | 100% accuracy |
-| Infrastructure | Power grids | Predicted UK blackout |
+| Infrastructure | Power grids | Identified UK blackout conditions |
 | Geophysical | Earthquakes | 100% accuracy |
 | Neural Networks | 660 architectures | 99.7% precision |
 | **Quantum** | **445 qubits, 1004 gates, 3 backends** | **r = 0.9458, 8-83% discrimination** |
