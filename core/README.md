@@ -6,7 +6,7 @@ No dependencies on external repositories.
 
 ## Contents
 
-- `phi_quantum.py` - Φ calculation for quantum systems (to be added)
+- `phi_calculator.py` - Universal Φ calculation for quantum systems
 
 ## Formula
 ```

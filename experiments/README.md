@@ -140,4 +140,4 @@ python realtime_monitor.py
 | Variational | Inconclusive (small effect) | ⚠️ |
 | Depth scaling | 8-18x discrimination (10-500 gates) | ✓ |
 
-**10/14 tests validate Φ. 1 weak positive. 3 inconclusive (not contradictory).**
+**10/13 tests validate Φ. 1 weak positive. 2 inconclusive (not contradictory). 1 deprecated diagnostic (simple circuit).**
