@@ -182,7 +182,7 @@ The analysis script (`analyze_temporal_data.py`) is patent-grade:
 
 ---
 
-## Future Tests (TODO)
+## Roadmap
 
 ### Short-term (with current data)
 
@@ -277,6 +277,6 @@ This documentation uses **"early warning indicator"** and **"leading indicator"*
 
 ## Repository
 
-Repository: Wise314/quantum-phi-validation (private)
+Repository: Wise314/quantum-phi-validation (public)
 
 Patent: Application #63/952,883 (provisional)
