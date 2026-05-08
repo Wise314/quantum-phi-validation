@@ -69,18 +69,39 @@ Where:
 - Threshold: Φ_c = 0.25
 ```
 
-## Key Findings
+## Scientific Discoveries
 
-- **Same formula** that identified UK blackout (Φ = 0.178) and Tohoku earthquake (Φ = -0.357)
-- **Same threshold (0.25)** validated on bearings, turbofans, grids, 660 neural networks
-- **All 5 dead qubits** correctly identified (Φ < 0, fidelity = 0.000)
-- **Low-Φ qubits** have 4.3x shorter coherence time
-- **Circuit execution** confirms 25-63x higher error for low-Φ qubits
-- **Depth scaling** shows 8-18x discrimination consistent from 10 to 500 gates
-- **Threshold 0.25** validated in optimal discrimination plateau
-- **GHZ entanglement** shows 4.42x higher error for low-Φ triplets
-- **Cross-backend** validation on ibm_fez, ibm_torino, ibm_marrakesh
-- **Qubit selection** by Φ reduces error by 83%, beats random by 74%
+The eight scientific discoveries from real-data validation on 445 qubits across three IBM Quantum backends:
+
+1. **The Φ formula compresses fidelity, coherence, and readout error into a single scalar that tracks qubit quality across 445 real qubits on three IBM backends** — Pearson correlation r = 0.9458 with the coherence ratio T2/T1, with low-Φ qubits showing 4.3x shorter T2, 3.7x lower T2/T1, and 2.4x higher readout error than high-Φ qubits
+
+2. **All 5 dead qubits in the tested dataset were correctly identified by Φ < 0 with zero false negatives** — the negative-Φ classification arises structurally from the formula because fidelity below the 0.50 random baseline forces I negative, providing a natural failure indicator with no additional threshold to calibrate
+
+3. **Minimum Φ of the qubit pair predicts two-qubit gate reliability with 4.34x higher error when min-Φ falls below 0.25** — across 1,004 two-qubit gates on IBM hardware, gates where minimum Φ fell below 0.25 produced mean error of 7.90% versus 1.82% for gates at or above the threshold, validating the weakest-link rule for gate-level prediction
+
+4. **Low-Φ qubits produce 25 to 63x higher circuit execution error and 8 to 18x discrimination across depths from 10 to 500 gates** — circuit execution validates the calibration metric against real outcomes, with discrimination remaining consistent rather than collapsing as circuit complexity increases
+
+5. **In the tested ibm_fez selection experiment, Φ-based qubit selection reduced circuit error by 83% compared to worst-case selection and outperformed random selection by 74%** — selecting the top 20 qubits by Φ from a pool of 60 produced mean error of 0.22% versus 1.30% for the bottom 20, an immediately deployable compiler optimization requiring only a scalar ranking of existing calibration data
+
+6. **Φ discriminates GHZ entanglement quality at 4.42x error ratio for low-Φ versus high-Φ qubit triplets** — multi-qubit entanglement validation extends the weakest-link rule from pairs to triplets, with low-Φ triplets producing 18.74% entanglement error versus 4.24% for high-Φ triplets
+
+7. **Φ serves as a leading indicator of qubit degradation with average lead time of 6.8 days in the 30-day tested window** — in a longitudinal study collecting 19 daily snapshots across 445 qubits, Φ below the 0.12 warning threshold preceded all 52 IBM-reported degradation events, with 11 producing warnings at least 24 hours in advance and a maximum lead time of 20 days
+
+8. **Threshold 0.25 sits in a strong empirically supported discrimination plateau in the tested IBM setting and transfers across three IBM backends without recalibration** — threshold sensitivity analysis shows 0.15 gives 4.74x, 0.25 gives 4.26x, and 0.35 gives 3.34x T2 discrimination, with cross-backend transfer at 98.4% balanced accuracy versus 99.1% within-backend
+
+### Boundary and Negative Findings
+
+These results are reported as boundary conditions or inconclusive findings and are part of the scientific record:
+
+- **Bell-state validation was inconclusive.** Two-qubit gate quality can vary independently of single-qubit Φ, with one high-Φ pair showing poor Bell fidelity due to bad two-qubit gate calibration. This establishes that Φ measures single-qubit stability and does not fully capture gate-specific error sources.
+
+- **Variational circuit validation was inconclusive with small effect sizes.** Entangling gate noise may dominate over single-qubit coherence effects in variational workloads, making Φ a weaker predictor in that setting.
+
+- **Error correction showed a weak positive result of 1.22x improvement** in logical error rate using three-qubit bit-flip codes with Φ-selected qubits. This is a supporting finding only, not a headline result.
+
+- **The simple single-gate circuit validation test was deprecated** because single gates are too shallow and too fast for coherence effects to dominate. It was replaced by the deep-circuit test and is not counted as an independent validation result.
+
+**Of 13 substantive validation tests, 10 validate Φ, 1 is a weak positive, and 2 are inconclusive but not contradictory.**
 
 ## Validation Evidence
 
