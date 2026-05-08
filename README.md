@@ -9,7 +9,11 @@ Validation of the Universal Φ Framework on IBM Quantum Hardware.
 **Status:** Patent Pending
 **Last Validated:** January 29, 2026
 
-**Paper:** [Thermodynamic Stability Metric Provides Early Warning of Qubit Degradation on IBM Quantum Hardware](https://doi.org/10.5281/zenodo.18522745)
+**Paper:** [Thermodynamic Stability Metric Provides Early Warning of Qubit Degradation on IBM Quantum Hardware](https://doi.org/10.5281/zenodo.20088933) (v2, May 2026)
+
+**Paper PDF:** [quantum-phi-validation-paper.pdf](quantum-phi-validation-paper.pdf)
+
+**Previous version:** [v1, February 2026](https://doi.org/10.5281/zenodo.18522745)
 
 ## Why This Matters
 
@@ -160,14 +164,14 @@ Real calibration data and circuit execution from IBM Quantum:
 
 ## Repository Structure
 ```
-├── core/           # Standalone Φ calculation source code
-├── startup/        # Setup scripts and IBM Quantum configuration
-├── experiments/    # Test scripts (14 tests + 2 utilities)
-├── analysis/       # Detailed results and analysis
-├── temporal_data/  # Daily Φ snapshots for prediction test
-├── Outputs_MD/     # Raw terminal outputs (ground truth)
-├── papers/         # Published research papers (Zenodo DOIs)
-├── LICENSE          # Proprietary viewing-only license
+├── core/                                 # Standalone Φ calculation source code
+├── startup/                              # Setup scripts and IBM Quantum configuration
+├── experiments/                          # Test scripts (14 tests + 2 utilities)
+├── analysis/                             # Detailed results and analysis
+├── temporal_data/                        # Daily Φ snapshots for prediction test
+├── Outputs_MD/                           # Raw terminal outputs (ground truth)
+├── quantum-phi-validation-paper.pdf      # Published paper (v2, Zenodo DOI 10.5281/zenodo.20088933)
+├── LICENSE                               # Proprietary viewing-only license
 └── requirements.txt
 ```
 
