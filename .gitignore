@@ -5,3 +5,4 @@ STUDY-GUIDE.md
 *.pyc
 __pycache__/
 .ipynb_checkpoints/
+startup/
